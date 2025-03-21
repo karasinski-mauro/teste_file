@@ -74,7 +74,7 @@ if aba_selecionada == "📝 Simulado":
                 if k in st.session_state:
                     del st.session_state[k]
             st.session_state.categoria_atual = escolha_simulado
-            st.experimental_rerun()
+            st.rerun()
 
     if "questoes" not in st.session_state:
         st.session_state.questoes = []
@@ -133,7 +133,7 @@ if aba_selecionada == "📝 Simulado":
             st.session_state.tentativa += 1
             # Atualiza o estado para reiniciar a categoria e as questões
             st.session_state.categoria_atual = escolha_simulado
-            st.experimental_rerun()  # Redefine a página após reiniciar
+            st.rerun()  # Redefine a página após reiniciar
 
         st.stop()
 
@@ -186,7 +186,7 @@ if aba_selecionada == "📝 Simulado":
                     q["categoria"] = categoria if categoria != "Aleatório" else next(k for k, v in simulados.items() if q in v)
                     st.session_state.questoes.append(q)
                     st.session_state.bloco_questoes.append(q)
-                st.experimental_rerun()
+                st.rerun()
             else:
                 st.success(f"🎉 Todas as questões da categoria **{categoria}** foram respondidas!")
 
@@ -221,7 +221,7 @@ if aba_selecionada == "📝 Simulado":
                     "Total_Respondidas": indice + 1,
                     "Erros": (indice + 1) - st.session_state.acertos
                 })
-                st.experimental_rerun()
+                st.rerun()
         else:
             resposta_correta = questao_atual["resposta"]
             resposta_usuario = st.session_state.resposta_usuario
@@ -238,7 +238,7 @@ if aba_selecionada == "📝 Simulado":
                 st.session_state.indice += 1
                 st.session_state.resposta_confirmada = False
                 st.session_state.bloco_questoes = []
-                st.experimental_rerun()
+                st.rerun()
 
 elif aba_selecionada == "📊 Dashboard de Desempenho":
     st.title("📊 Dashboard de Desempenho")
