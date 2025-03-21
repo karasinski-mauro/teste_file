@@ -240,7 +240,7 @@
         "Questão": 35,
         "pergunta": "O cultivo de arroz é o segundo maior responsável pela emissão de gases de efeito estufa na agricultura, com 9,6% das emissões.",
         "resposta": "Errado",
-        "explicacao": "O maior responsável pela emissão de gases de efeito estufa na agricultura é o uso da terra, a mudança no uso da terra e a silvicultura, com 38%, seguido pela fermentação entérica na pecuária (29%) e o cultivo de arroz com 9,6%."
+        "explicacao": "O maior responsável pela emissão de gases de efeito estufa na agricultura é o uso da terra, a mudança no uso da terra e a silvicultura, com **38%**, seguido pela fermentação entérica na pecuária (29%) e o cultivo de arroz com **9,6%** e a aplicação de fertilizantes sintéticos por **4%** das emissões da agricultura."
     },
     {
         "Questão": 36,
