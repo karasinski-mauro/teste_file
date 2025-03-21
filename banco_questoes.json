@@ -1,0 +1,18 @@
+[
+    {
+        "pergunta": "Julgue o próximo item, com base no disposto na Lei Geral de Proteção de Dados Pessoais (LGPD)\n\nO titular tem direito ao acesso facilitado às informações sobre o tratamento de seus dados , que deverão ser disponibilizados de forma clara e adequada, excetuando-se, por questões de segurança, a identificação do controlador.",
+        "resposta": "Errado",
+        "explicacao": "Art. 9 O titular tem direito ao acesso facilitado às informações sobre o tratamento de seus dados , que deverão ser disponibilizados de forma clara, adequada e ostensiva acerca de, entre outras características previstas em regulamentação para o atendimento do princícpio do livre acesso: IV - Informações de contato do controlador."
+    },
+    {
+        "pergunta": "De acordo com a LGPD, o tratamento de dados pessoais sensíveis, quando for indispensável para o cumprimento de obrigação legal pelo controlador, poderá ocorrer sem o consentimento do titular ou responsável legal pelo seus dados ",
+        "resposta": "Certo",
+        "explicacao": "Art. 11 O  tratamento de dados pessoais sensíveis,  somente poderá ocorrer nas seguintes hipóteses:\nI - Com o consentimento do titular\nII - sem o consentimento do titular, nas hipóteses em que for dispensável para:\n      a) cumprimento de obrigação legal ou regulatória pelo controlador;\n"
+    },
+    {
+        "pergunta": "Pergunta: Julgue o próximo item, com base no disposto na Lei Geral de Proteção de Dados Pessoais (LGPD)\n\nO titular tem direito ao acesso facilitado às informações sobre o tratamento de seus dados , que deverão ser disponibilizados de forma clara e adequada, excetuando-se, por questões de segurança, a identificação do controlador.",
+        "resposta": "Errado",
+        "explicacao": "Art. 9 O titular tem direito ao acesso facilitado às informações sobre o tratamento de seus dados , que deverão ser disponibilizados de forma clara, adequada e ostensiva acerca de, entre outras características previstas em regulamentação para o atendimento do princípio do livre acesso.\n\nArt. 9 O titular tem direito ao acesso facilitado às informações sobre o tratamento de seus dados , que deverão ser disponibilizados de forma clara, adequada e ostensiva acerca de, entre outras características previstas em regulamentação para o atendimento do princícpio do livre acesso: IV - Informações de contato do controlador.",
+        "imagem": "imagens_questoes\\lgpd art 9.png"
+    }
+]

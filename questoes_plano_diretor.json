@@ -1,0 +1,287 @@
+[
+    {   
+        "Questão": 1,
+        "pergunta": "Após uma extensa revisão da literatura, considerou-se a transformação digital como um processo que visa melhorar uma entidade pela mudança significativa, combinando informação, computação e conectividade.",
+        "resposta": "Certo",
+        "explicacao": "Vial (2021), após uma extensa revisão da literatura, considerou-se a transformação digital como um processo que visa melhorar uma entidade pela mudança significativa, combinando informação, computação e conectividade.",
+        "imagem": null
+    },
+    {   
+        "Questão": 2,
+        "pergunta": "A bioeconomia e a economia circular são temas centrais no PDE 2024-2030 da Embrapa, incentivando a valorização de recursos renováveis e o aproveitamento de resíduos agroindustriais.",
+        "resposta": "Certo",
+        "explicacao": "O Plano Diretor inclui estratégias voltadas para a bioeconomia e economia circular, alinhadas com a sustentabilidade agrícola.",
+        "imagem": null
+    },
+    {
+        "Questão": 3,
+        "pergunta": "A transformação digital pode ser definida numa perspectiva mais ampla, como um processo de mudança fundamental na sociedade e nas diferentes indústrias pela utilização de tecnologias digitais.",
+        "resposta": "Certo",
+        "explicacao": "é dentro deste contexto amplo que está inserido o processo de transformação digital da agricultura, que se refere ao uso de tecnologias digitais para otimizar as práticas agrícolas e os serviços, desde a gestão até a distribuição ao consumidor final. Os objetivos são aumentar a a eficiência e a produtividade, reduzir os custos, promover a sustentabilidade e acessar mercados, entre outros.",
+        "imagem": null
+        
+    },
+    {
+        "Questão": 4,
+        "pergunta": "Um exemplo de oportunidades de Pesquisa, Desenvolvimento e Inovação (PD&I) está no uso de Sensores, Drones e Satélites para coleta de dados em operações agrícolas.",
+        "resposta": "Certo",
+        "explicacao": "As oportunidades de Pesquisa, Desenvolvimento e Inovação (PD&I) surgem no uso de Sensores, Drones e Satélites para coleta de dados de condição de solo, clima, desenvolvimento das plantas e dos animais, identificação de pragas e doenças para uma gestão mais precisa das operações agrícolas.",
+        "imagem": null
+        
+    },
+    {
+        "Questão": 5,
+        "pergunta": "A Embrapa trabalha com diversos atores dos setores público, privado, instituições de pesquisa nacionais e internacionais e sociedade civil organizada. Sendo os principais benificiários as cadeias produtivas, consumidores em geral e entes públicos.",
+        "resposta": "Certo",
+        "explicacao": "As soluções disponibilizadas pela Embrapa atendem às demandas tecnológicas dos vários públicos do setor agropecuário, florestal, aquícola e agroindustrial, para que possam realizar as suas atividades produtivas. O conhecimento gerado também contribui para políticas públicas nacionais e globais relacionadas a esses setores. Indiretamente, essas soluções beneficiam toda a sociedade brasileira e global. Entre esses vários públicos, temos: \n\n **Cadeias produtivas:** Inclui pequenos, médios e grandes produtores rurais, extrativistas; cooperativas, associações e federações de agricultura, pecuária, setor florestal, aquícola; empresas de insumos, de processamento/beneficiamento/ transformação.\n\n**Consumidores em geral:** Inclui os consumidores brasileiros e globais de produtos agropecuários (utilizados diretamente ou transformados pelas diferentes cadeias), seja na população rural ou na urbana.\n\n**Entes públicos:** Inclui instituições e órgãos públicos em todos os níveis governamentais, no executivo, legislativo e judiciário.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q5.png?raw=true"
+    },
+    {
+        "Questão": 6,
+        "pergunta": "Os sistemas de PD&I podem ser entendidos como ecossistemas de inovação, justamente porque dependem da interação bem-sucedida de diferentes agentes com setores produtivos e organizações que fomentam a inovação, compartilham conhecimentos e recursos e regulam as decisões. Pode-se dizer que há três grandes tipos de ecossistemas de inovação que se desenvolveram no País: Globais, Nacionais e Municipais.",
+        "resposta": "Errado",
+        "explicacao": "Os fluxos de conhecimento para a inovação da agricultura provêm de diversos agentes: institutos públicos de pesquisa, universidades, centros privados de pesquisa e inovação, empresas globais e locais do agronegócio, startups agrícolas, associações e cooperativas de produtores, órgãos que prestam assistência técnica, entre outros que podem contribuir para que a Embrapa cumpra sua missão. Os sistemas de PD&I podem ser entendidos como ecossistemas de inovação, justamente porque dependem da interação bem-sucedida de diferentes agentes com setores produtivos e organizações que fomentam a inovação, compartilham conhecimentos e recursos e regulam as decisões. Pode-se dizer que há três grandes tipos de ecossistemas de inovação que se desenvolveram no País: \n\n**Globais**: Envolvem fluxos predominantemente globais e internacionalizados de conhecimento, normalmente (mas não exclusivamente) voltados às principais commodities agrícolas. \n\n**Nacionais e regionais**: Envolvem fluxos de conhecimento voltados a produtos, processos e serviços consolidados da pauta agropecuária (não apenas commodities) e de ampla importância social e econômica para o Brasil. \n\n**Emergentes**: Envolvem fluxos predominantemente locais voltados ao desenvolvimento de novos produtos, serviços e modelos de negócios, com amplo potencial de desenvolvimento regional e nacional, podendo, também, se internacionalizar.",
+        "imagem": null
+        
+    },
+    {
+        "Questão": 7,
+        "pergunta": "A visão da Embrapa é viabilizar soluções de pesquisa, desenvolvimento e inovação para a sustentabilidade da agricultura, em benefício da sociedade brasileira.",
+        "resposta": "Errado",
+        "explicacao": "Essa é a definição da **Missão** da Embrapa. \n\nA visão da embrapa é ser protagonista e parceira essencial na geração e no uso de conhecimentos para o desenvolvimento sustentável da agricultura brasileira até 2030.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q7.png?raw=true"
+        
+    },
+    {
+        "Questão": 8,
+        "pergunta": "A Missão da Embrapa é viabilizar soluções de pesquisa, desenvolvimento e inovação para a sustentabilidade da agricultura, em benefício da sociedade brasileira.",
+        "resposta": "Certo",
+        "explicacao": "A Missão da Embrapa é viabilizar soluções de pesquisa, desenvolvimento e inovação para a sustentabilidade da agricultura, em benefício da sociedade brasileira.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q7.png?raw=true"
+        
+    },
+    {
+        "Questão": 9,
+        "pergunta": "Quanto aos valores da embrapa destacam-se, confiança e integridade, respeito, coletividade, inovação, Excelência e responsabilidade socioambiental",
+        "resposta": "Errado",
+        "explicacao": "Com base nesses pilares, os valores que balizam as práticas e os comportamentos da Embrapa e de seus integrantes são: \n\n**Confiança e integridade**: Somos confiáveis porque cultivamos e praticamos o comportamento ético e moral em todas as nossas ações, garantindo integridade à nossa empresa. \n\n**Respeito**: Somos abertos ao novo e acreditamos tanto no crescimento pessoal quanto no crescimento profissional a partir do respeito à diversidade de pessoas e opiniões. \n\n**Cooperação**: Buscamos interagir com todos os estratos geradores de conhecimento e de tecnologia e com todos os beneficiários a partir da geração de impacto por meio das tecnologias desenvolvidas por nós e nossos parceiros. \n\n**Inovação**: Buscamos soluções criativas e inovadoras que agreguem valor aos produtos e serviços que desenvolvemos. \n\n**Excelência**: Somos comprometidos com a realização do nosso trabalho e empenhados em entregar os melhores resultados com alto grau de qualidade. \n\n**Responsabilidade socioambiental**: Buscamos alavancar o bem-estar socio- econômico da população brasileira em harmonia com o meio ambiente, por meio de conhecimentos e soluções inovadoras que contribuam para o alcance dos Objetivos de Desenvolvimento Sustentável.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q7.png?raw=true"
+        
+    },
+    {
+        "Questão": 10,
+        "pergunta": "Quanto aos valores da embrapa destacam-se, confiança e integridade, respeito, cooperação, inovação, excelência e responsabilidade socioambiental",
+        "resposta": "Certo",
+        "explicacao": "Os valores que balizam as práticas e os comportamentos da Embrapa e de seus integrantes são: \n\n**Confiança e integridade**: Somos confiáveis porque cultivamos e praticamos o comportamento ético e moral em todas as nossas ações, garantindo integridade à nossa empresa. \n\n**Respeito**: Somos abertos ao novo e acreditamos tanto no crescimento pessoal quanto no crescimento profissional a partir do respeito à diversidade de pessoas e opiniões. \n\n**Cooperação**: Buscamos interagir com todos os estratos geradores de conhecimento e de tecnologia e com todos os beneficiários a partir da geração de impacto por meio das tecnologias desenvolvidas por nós e nossos parceiros. \n\n**Inovação**: Buscamos soluções criativas e inovadoras que agreguem valor aos produtos e serviços que desenvolvemos. \n\n**Excelência**: Somos comprometidos com a realização do nosso trabalho e empenhados em entregar os melhores resultados com alto grau de qualidade. \n\n**Responsabilidade socioambiental**: Buscamos alavancar o bem-estar socio- econômico da população brasileira em harmonia com o meio ambiente, por meio de conhecimentos e soluções inovadoras que contribuam para o alcance dos Objetivos de Desenvolvimento Sustentável.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q7.png?raw=true"
+        
+    },
+    {
+        "Questão": 11,
+        "pergunta": "A Embrapa valoriza a cooperação, o respeito e a inovação, fundamentando suas práticas na confiança, excelência e responsabilidade socioambiental.",
+        "resposta": "Certo",
+        "explicacao": "Com base nesses pilares, os valores que balizam as práticas e os comportamentos da Embrapa e de seus integrantes são: \n\n**Confiança e integridade**: Somos confiáveis porque cultivamos e praticamos o comportamento ético e moral em todas as nossas ações, garantindo integridade à nossa empresa. \n\n**Respeito**: Somos abertos ao novo e acreditamos tanto no crescimento pessoal quanto no crescimento profissional a partir do respeito à diversidade de pessoas e opiniões. \n\n**Cooperação**: Buscamos interagir com todos os estratos geradores de conhecimento e de tecnologia e com todos os beneficiários a partir da geração de impacto por meio das tecnologias desenvolvidas por nós e nossos parceiros. \n\n**Inovação**: Buscamos soluções criativas e inovadoras que agreguem valor aos produtos e serviços que desenvolvemos. \n\n**Excelência**: Somos comprometidos com a realização do nosso trabalho e empenhados em entregar os melhores resultados com alto grau de qualidade. \n\n**Responsabilidade socioambiental**: Buscamos alavancar o bem-estar socioeconômico da população brasileira em harmonia com o meio ambiente, por meio de conhecimentos e soluções inovadoras que contribuam para o alcance dos Objetivos de Desenvolvimento Sustentável.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q7.png?raw=true"
+    },
+    {
+        "Questão": 12,
+        "pergunta": "Entre os valores da Embrapa, a responsabilidade socioambiental é considerada menos importante do que a inovação e a excelência.",
+        "resposta": "Errado",
+        "explicacao": "Todos os valores da Embrapa tem igual importância e são fundamentais. \nOs valores que balizam as práticas e os comportamentos da Embrapa e de seus integrantes são: \n\n**Confiança e integridade**: Somos confiáveis porque cultivamos e praticamos o comportamento ético e moral em todas as nossas ações, garantindo integridade à nossa empresa. \n\n**Respeito**: Somos abertos ao novo e acreditamos tanto no crescimento pessoal quanto no crescimento profissional a partir do respeito à diversidade de pessoas e opiniões. \n\n**Cooperação**: Buscamos interagir com todos os estratos geradores de conhecimento e de tecnologia e com todos os beneficiários a partir da geração de impacto por meio das tecnologias desenvolvidas por nós e nossos parceiros. \n\n**Inovação**: Buscamos soluções criativas e inovadoras que agreguem valor aos produtos e serviços que desenvolvemos. \n\n**Excelência**: Somos comprometidos com a realização do nosso trabalho e empenhados em entregar os melhores resultados com alto grau de qualidade. \n\n**Responsabilidade socioambiental**: Buscamos alavancar o bem-estar socioeconômico da população brasileira em harmonia com o meio ambiente, por meio de conhecimentos e soluções inovadoras que contribuam para o alcance dos Objetivos de Desenvolvimento Sustentável.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q7.png?raw=true"
+    },
+    {
+        "Questão": 13,
+        "pergunta": "A Embrapa adota a excelência como um de seus valores, pois acredita que a integridade e a cooperação não são essenciais para seu sucesso.",
+        "resposta": "Errado",
+        "explicacao": "Os valores que balizam as práticas e os comportamentos da Embrapa e de seus integrantes são: \n\n**Confiança e integridade**: Somos confiáveis porque cultivamos e praticamos o comportamento ético e moral em todas as nossas ações, garantindo integridade à nossa empresa. \n\n**Respeito**: Somos abertos ao novo e acreditamos tanto no crescimento pessoal quanto no crescimento profissional a partir do respeito à diversidade de pessoas e opiniões. \n\n**Cooperação**: Buscamos interagir com todos os estratos geradores de conhecimento e de tecnologia e com todos os beneficiários a partir da geração de impacto por meio das tecnologias desenvolvidas por nós e nossos parceiros. \n\n**Inovação**: Buscamos soluções criativas e inovadoras que agreguem valor aos produtos e serviços que desenvolvemos. \n\n**Excelência**: Somos comprometidos com a realização do nosso trabalho e empenhados em entregar os melhores resultados com alto grau de qualidade. \n\n**Responsabilidade socioambiental**: Buscamos alavancar o bem-estar socioeconômico da população brasileira em harmonia com o meio ambiente, por meio de conhecimentos e soluções inovadoras que contribuam para o alcance dos Objetivos de Desenvolvimento Sustentável.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q7.png?raw=true"
+    },
+    {
+        "Questão": 14,
+        "pergunta": "A inovação e a confiança são valores centrais para a Embrapa, pois representam o compromisso da empresa com o futuro e a credibilidade de suas ações.",
+        "resposta": "Certo",
+        "explicacao": "Os valores que balizam as práticas e os comportamentos da Embrapa e de seus integrantes são: \n\n**Confiança e integridade**: Somos confiáveis porque cultivamos e praticamos o comportamento ético e moral em todas as nossas ações, garantindo integridade à nossa empresa. \n\n**Respeito**: Somos abertos ao novo e acreditamos tanto no crescimento pessoal quanto no crescimento profissional a partir do respeito à diversidade de pessoas e opiniões. \n\n**Cooperação**: Buscamos interagir com todos os estratos geradores de conhecimento e de tecnologia e com todos os beneficiários a partir da geração de impacto por meio das tecnologias desenvolvidas por nós e nossos parceiros. \n\n**Inovação**: Buscamos soluções criativas e inovadoras que agreguem valor aos produtos e serviços que desenvolvemos. \n\n**Excelência**: Somos comprometidos com a realização do nosso trabalho e empenhados em entregar os melhores resultados com alto grau de qualidade. \n\n**Responsabilidade socioambiental**: Buscamos alavancar o bem-estar socioeconômico da população brasileira em harmonia com o meio ambiente, por meio de conhecimentos e soluções inovadoras que contribuam para o alcance dos Objetivos de Desenvolvimento Sustentável.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q7.png?raw=true"
+    },
+    {
+        "Questão": 15,
+        "pergunta": "Para a Embrapa, a cooperação entre setores e a busca pela inovação são fundamentais para o desenvolvimento sustentável do país.",
+        "resposta": "Certo",
+        "explicacao": "Os valores que balizam as práticas e os comportamentos da Embrapa e de seus integrantes são: \n\n**Confiança e integridade**: Somos confiáveis porque cultivamos e praticamos o comportamento ético e moral em todas as nossas ações, garantindo integridade à nossa empresa. \n\n**Respeito**: Somos abertos ao novo e acreditamos tanto no crescimento pessoal quanto no crescimento profissional a partir do respeito à diversidade de pessoas e opiniões. \n\n**Cooperação**: Buscamos interagir com todos os estratos geradores de conhecimento e de tecnologia e com todos os beneficiários a partir da geração de impacto por meio das tecnologias desenvolvidas por nós e nossos parceiros. \n\n**Inovação**: Buscamos soluções criativas e inovadoras que agreguem valor aos produtos e serviços que desenvolvemos. \n\n**Excelência**: Somos comprometidos com a realização do nosso trabalho e empenhados em entregar os melhores resultados com alto grau de qualidade. \n\n**Responsabilidade socioambiental**: Buscamos alavancar o bem-estar socioeconômico da população brasileira em harmonia com o meio ambiente, por meio de conhecimentos e soluções inovadoras que contribuam para o alcance dos Objetivos de Desenvolvimento Sustentável.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q7.png?raw=true"
+    },
+    {
+        "Questão": 16,
+        "pergunta": "Além dos valores de inovação e excelência, a Embrapa adota também a meritocracia e a competitividade como princípios fundamentais.",
+        "resposta": "Errado",
+        "explicacao": "Os valores que balizam as práticas e os comportamentos da Embrapa e de seus integrantes são:\n\n**Confiança e integridade**: Somos confiáveis porque cultivamos e praticamos o comportamento ético e moral em todas as nossas ações, garantindo integridade à nossa empresa.\n\n**Respeito**: Somos abertos ao novo e acreditamos tanto no crescimento pessoal quanto no crescimento profissional a partir do respeito à diversidade de pessoas e opiniões.\n\n**Cooperação**: Buscamos interagir com todos os estratos geradores de conhecimento e de tecnologia e com todos os beneficiários a partir da geração de impacto por meio das tecnologias desenvolvidas por nós e nossos parceiros.\n\n**Inovação**: Buscamos soluções criativas e inovadoras que agreguem valor aos produtos e serviços que desenvolvemos.\n\n**Excelência**: Somos comprometidos com a realização do nosso trabalho e empenhados em entregar os melhores resultados com alto grau de qualidade.\n\n**Responsabilidade socioambiental**: Buscamos alavancar o bem-estar socioeconômico da população brasileira em harmonia com o meio ambiente, por meio de conhecimentos e soluções inovadoras que contribuam para o alcance dos Objetivos de Desenvolvimento Sustentável.\n\nEmbora **meritocracia** e **competitividade** sejam valores presentes em algumas empresas e setores, **eles não fazem parte da lista oficial de valores da Embrapa**.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q7.png?raw=true"
+    },
+    {
+        "Questão": 17,
+        "pergunta": "A Embrapa segue os princípios da transparência e da liderança estratégica como parte de seus valores institucionais.",
+        "resposta": "Errado",
+        "explicacao": "Os valores que balizam as práticas e os comportamentos da Embrapa e de seus integrantes são:\n\n**Confiança e integridade**: Somos confiáveis porque cultivamos e praticamos o comportamento ético e moral em todas as nossas ações, garantindo integridade à nossa empresa.\n\n**Respeito**: Somos abertos ao novo e acreditamos tanto no crescimento pessoal quanto no crescimento profissional a partir do respeito à diversidade de pessoas e opiniões.\n\n**Cooperação**: Buscamos interagir com todos os estratos geradores de conhecimento e de tecnologia e com todos os beneficiários a partir da geração de impacto por meio das tecnologias desenvolvidas por nós e nossos parceiros.\n\n**Inovação**: Buscamos soluções criativas e inovadoras que agreguem valor aos produtos e serviços que desenvolvemos.\n\n**Excelência**: Somos comprometidos com a realização do nosso trabalho e empenhados em entregar os melhores resultados com alto grau de qualidade.\n\n**Responsabilidade socioambiental**: Buscamos alavancar o bem-estar socioeconômico da população brasileira em harmonia com o meio ambiente, por meio de conhecimentos e soluções inovadoras que contribuam para o alcance dos Objetivos de Desenvolvimento Sustentável.\n\nApesar de **transparência** e **liderança estratégica** serem conceitos importantes na administração pública e corporativa, **eles não fazem parte dos valores institucionais da Embrapa**.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q7.png?raw=true"
+    },
+    {
+        "Questão": 18,
+        "pergunta": "A atuação da Embrapa é restrita ao setor público, focando exclusivamente em instituições governamentais sem parcerias com empresas privadas ou a sociedade civil.",
+        "resposta": "Errado",
+        "explicacao": "As soluções disponibilizadas pela Embrapa atendem às demandas tecnológicas dos vários públicos do setor agropecuário, florestal, aquícola e agroindustrial, para que possam realizar as suas atividades produtivas. O conhecimento gerado também contribui para políticas públicas nacionais e globais relacionadas a esses setores. Indiretamente, essas soluções beneficiam toda a sociedade brasileira e global. Entre esses vários públicos, temos: \n\n **Cadeias produtivas:** Inclui pequenos, médios e grandes produtores rurais, extrativistas; cooperativas, associações e federações de agricultura, pecuária, setor florestal, aquícola; empresas de insumos, de processamento/beneficiamento/ transformação.\n\n**Consumidores em geral:** Inclui os consumidores brasileiros e globais de produtos agropecuários (utilizados diretamente ou transformados pelas diferentes cadeias), seja na população rural ou na urbana.\n\n**Entes públicos:** Inclui instituições e órgãos públicos em todos os níveis governamentais, no executivo, legislativo e judiciário.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q5.png?raw=true"
+    },
+    {
+        "Questão": 19,
+        "pergunta": "A Embrapa colabora com instituições de pesquisa tanto nacionais quanto internacionais, promovendo inovação no setor agropecuário.",
+        "resposta": "Certo",
+        "explicacao": "As soluções disponibilizadas pela Embrapa atendem às demandas tecnológicas dos vários públicos do setor agropecuário, florestal, aquícola e agroindustrial, para que possam realizar as suas atividades produtivas. O conhecimento gerado também contribui para políticas públicas nacionais e globais relacionadas a esses setores. Indiretamente, essas soluções beneficiam toda a sociedade brasileira e global. Entre esses vários públicos, temos: \n\n **Cadeias produtivas:** Inclui pequenos, médios e grandes produtores rurais, extrativistas; cooperativas, associações e federações de agricultura, pecuária, setor florestal, aquícola; empresas de insumos, de processamento/beneficiamento/ transformação.\n\n**Consumidores em geral:** Inclui os consumidores brasileiros e globais de produtos agropecuários (utilizados diretamente ou transformados pelas diferentes cadeias), seja na população rural ou na urbana.\n\n**Entes públicos:** Inclui instituições e órgãos públicos em todos os níveis governamentais, no executivo, legislativo e judiciário.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q5.png?raw=true"
+    },
+    {
+        "Questão": 20,
+        "pergunta": "O público beneficiado pelo trabalho da Embrapa se restringe aos grandes produtores rurais e indústrias de processamento agropecuário.",
+        "resposta": "Errado",
+        "explicacao": "As soluções disponibilizadas pela Embrapa atendem às demandas tecnológicas dos vários públicos do setor agropecuário, florestal, aquícola e agroindustrial, para que possam realizar as suas atividades produtivas. O conhecimento gerado também contribui para políticas públicas nacionais e globais relacionadas a esses setores. Indiretamente, essas soluções beneficiam toda a sociedade brasileira e global. Entre esses vários públicos, temos: \n\n **Cadeias produtivas:** Inclui pequenos, médios e grandes produtores rurais, extrativistas; cooperativas, associações e federações de agricultura, pecuária, setor florestal, aquícola; empresas de insumos, de processamento/beneficiamento/ transformação.\n\n**Consumidores em geral:** Inclui os consumidores brasileiros e globais de produtos agropecuários (utilizados diretamente ou transformados pelas diferentes cadeias), seja na população rural ou na urbana.\n\n**Entes públicos:** Inclui instituições e órgãos públicos em todos os níveis governamentais, no executivo, legislativo e judiciário.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q5.png?raw=true"
+    },
+    {
+        "Questão": 21,
+        "pergunta": "Entre os beneficiários da atuação da Embrapa, estão tanto os pequenos produtores rurais quanto empresas de insumos e transformação agroindustrial.",
+        "resposta": "Certo",
+        "explicacao": "As soluções disponibilizadas pela Embrapa atendem às demandas tecnológicas dos vários públicos do setor agropecuário, florestal, aquícola e agroindustrial, para que possam realizar as suas atividades produtivas. O conhecimento gerado também contribui para políticas públicas nacionais e globais relacionadas a esses setores. Indiretamente, essas soluções beneficiam toda a sociedade brasileira e global. Entre esses vários públicos, temos: \n\n **Cadeias produtivas:** Inclui pequenos, médios e grandes produtores rurais, extrativistas; cooperativas, associações e federações de agricultura, pecuária, setor florestal, aquícola; empresas de insumos, de processamento/beneficiamento/ transformação.\n\n**Consumidores em geral:** Inclui os consumidores brasileiros e globais de produtos agropecuários (utilizados diretamente ou transformados pelas diferentes cadeias), seja na população rural ou na urbana.\n\n**Entes públicos:** Inclui instituições e órgãos públicos em todos os níveis governamentais, no executivo, legislativo e judiciário.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q5.png?raw=true"
+    },
+    {
+        "Questão": 22,
+        "pergunta": "A Embrapa tem como foco principal o desenvolvimento de soluções apenas para o setor privado, sem envolvimento com políticas públicas ou consumidores finais.",
+        "resposta": "Errado",
+        "explicacao": "As soluções disponibilizadas pela Embrapa atendem às demandas tecnológicas dos vários públicos do setor agropecuário, florestal, aquícola e agroindustrial, para que possam realizar as suas atividades produtivas. O conhecimento gerado também contribui para políticas públicas nacionais e globais relacionadas a esses setores. Indiretamente, essas soluções beneficiam toda a sociedade brasileira e global. Entre esses vários públicos, temos: \n\n **Cadeias produtivas:** Inclui pequenos, médios e grandes produtores rurais, extrativistas; cooperativas, associações e federações de agricultura, pecuária, setor florestal, aquícola; empresas de insumos, de processamento/beneficiamento/ transformação.\n\n**Consumidores em geral:** Inclui os consumidores brasileiros e globais de produtos agropecuários (utilizados diretamente ou transformados pelas diferentes cadeias), seja na população rural ou na urbana.\n\n**Entes públicos:** Inclui instituições e órgãos públicos em todos os níveis governamentais, no executivo, legislativo e judiciário.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q5.png?raw=true"
+    },
+
+    {
+        "Questão": 23,
+        "pergunta": "O Mapa da Estratégia da Embrapa 2024-2030 demonstra apenas a relação entre os objetivos estratégicos internos da empresa, sem considerar o contexto externo.",
+        "resposta": "Errado",
+        "explicacao": "O Mapa da Estratégia é uma representação de como as escolhas estratégicas do **PDE 2024-2030** estão integradas ao contexto externo. As **transições globais** afetam o ambiente de atuação da Embrapa e seus parceiros, assim como as **políticas nacionais e globais** vigentes. Além disso, os beneficiários e parceiros são vistos tanto como fontes de **demandas, oportunidades e desafios**, quanto como **destino de conhecimentos e soluções**, gerando um intercâmbio constante.\n\nNa parte central do Mapa estão duas camadas representando os **Objetivos Estratégicos (OEs) finalísticos e de gestão**. Na base, reforçando a identidade da Embrapa, estão sua **missão, visão e valores**.",
+        "imagem": "https://github.com/karasinski-mauro/images/blob/main/PDE_Q25.png?raw=true"
+    },
+    {
+        "Questão": 24,
+        "pergunta": "De acordo com o Plano Diretor da Embrapa, o maior de todos os desafios para a sociedade brasileira, no ambito da transição dos sistemas alimentares, é diminuir o número de pessoas que que sofrem de insegurança alimentar ou má nutrição no País. ",
+        "resposta": "Certo",
+        "explicacao": "O maior de todos os desafios para a sociedade brasileira é diminuir o número de pessoas que sofrem de insegurança alimentar ou má nutrição no País. No período de 2020 a 2022, 10,1 milhões de brasileiros estavam em situação de fome, enquanto outros 21,1 milhões estavam em condições de insegurança alimentar grave, o que significa a falta de comida durante um dia ou mais. No total, 33,2 milhões de pessoas encontravam-se em situação de insegurança alimentar grave ou de desnutrição severa (FAO, 2023b).",
+        "imagem": null
+    },
+    {
+        "Questão": 25,
+        "pergunta": "De acordo com o Plano Diretor da Embrapa, o maior de todos os desafios para a sociedade brasileira, no ambito da transição dos sistemas alimentares, é diminuir o número de pessoas que que sofrem de insegurança alimentar ou má nutrição no País. ",
+        "resposta": "Certo",
+        "explicacao": "O maior de todos os desafios para a sociedade brasileira é diminuir o número de pessoas que sofrem de insegurança alimentar ou má nutrição no País. No período de 2020 a 2022, 10,1 milhões de brasileiros estavam em situação de fome, enquanto outros 21,1 milhões estavam em condições de insegurança alimentar grave, o que significa a falta de comida durante um dia ou mais. No total, 33,2 milhões de pessoas encontravam-se em situação de insegurança alimentar grave ou de desnutrição severa (FAO, 2023b).",
+        "imagem": null
+    },
+    {
+        "Questão":26,
+        "pergunta": "A Embrapa foi criada em 1973, uma vez que a produção de alimentos no mundo acontecia minoritariamente em clima temperado.",
+        "resposta": "Errado",
+        "explicacao": "A Embrapa foi criada em 1973, quando a produção de alimentos no mundo acontecia majoritariamente em ambiente de clima temperado."
+    },
+    {
+        "Questão": 27,
+        "pergunta": "O Novo Programa de Aceleração do Crescimento (Novo PAC), lançado oficialmente em 2023, prevê um investimento de R$ 1,7 bilhão em 4 anos, com R$ 1 bilhão direcionado para investimentos em modernização da infraestrutura da Embrapa.",
+        "resposta": "Certo",
+        "explicacao": "O Novo PAC, lançado em 2023, prevê investimento de R$ 1,7 trilhão em 4 anos, com cerca de R$ 1 bilhão direcionado para a modernização da infraestrutura da Embrapa, trazendo oportunidades para a Empresa."
+    },
+    {
+        "Questão": 28,
+        "pergunta": "A agricultura brasileira é reconhecida como altamente competitiva e o agronegócio responde por 30% da soma de todas as riquezas produzidas, 26,9% do total de ocupações e 50% do faturamento das exportações brasileiras, que chegou a US$ 82 bilhões no primeiro semestre de 2023.",
+        "resposta": "Errado",
+        "explicacao": "O agronegócio é responsável por **24,4%** da soma de todas as riquezas produzidas, *26,9% do total de ocupações e **50%** do faturamento das exportações brasileiras, que chegou a US$ 82 bilhões no primeiro semestre de 2023."
+    },
+    {
+        "Questão": 29,
+        "pergunta": "A agricultura familiar representa 78% dos estabelecimentos agropecuários, 67% da população ocupada, 23% do valor bruto da produção e 23% da área, sendo que destas,  1,7 milhão de mulheres estão na gestão ou codireção de propriedades rurais.",
+        "resposta": "Certo",
+        "explicacao": "A agricultura familiar representa **78%** dos estabelecimentos agropecuários (3,7 milhões), **67%** da população ocupada (10 milhões de pessoas), **23%** do valor bruto da produção (VBP) (R$ 107 bilhões) e **23%** da área (81 milhões de hectares). Em termos de gênero, o Censo Agropecuário de 2017 revelou que **1,7** milhão de mulheres estão na gestão ou codireção de propriedades rurais, cerca de 34% do total de estabelecimentos."
+    },
+    {
+        "Questão": 30,
+        "pergunta": "A agricultura familiar representa 75% dos estabelecimentos agropecuários, 60% da população ocupada, 23% do valor bruto da produção e 23% da área, com 1,7 milhões de mulheres na gestão ou codireção de propriedades rurais.",
+        "resposta": "Errado",
+        "explicacao": "A agricultura familiar representa **78%** dos estabelecimentos agropecuários (3,7 milhões), **67%** da população ocupada (10 milhões de pessoas), **23%** do valor bruto da produção (VBP) (R$ 107 bilhões) e **23%** da área (81 milhões de hectares). Em termos de gênero, o Censo Agropecuário de 2017 revelou que **1,7** milhão de mulheres estão na gestão ou codireção de propriedades rurais, cerca de 34% do total de estabelecimentos."
+    },
+    {
+        "Questão": 31,
+        "pergunta": "A agricultura familiar representa 80% dos estabelecimentos agropecuários, 70% da população ocupada, 23% do valor bruto da produção e 23% da área, com 1,7 milhão de mulheres na gestão ou codireção de propriedades rurais.",
+        "resposta": "Errado",
+        "explicacao": "A agricultura familiar representa **78%** dos estabelecimentos agropecuários (3,7 milhões), **67%** da população ocupada (10 milhões de pessoas), **23%** do valor bruto da produção (VBP) (R$ 107 bilhões) e **23%** da área (81 milhões de hectares). Em termos de gênero, o Censo Agropecuário de 2017 revelou que **1,7** milhão de mulheres estão na gestão ou codireção de propriedades rurais, cerca de 34% do total de estabelecimentos."
+    },
+    {
+        "Questão": 32,
+        "pergunta": "Em termos de GEE (gases de efeito estufa), a agricultura global é responsável pela emissão de 10,4 Gt CO2 eq, o que corresponde a 18% das emissões totais, ficando atrás dos setores de energia e indústria.",
+        "resposta": "Certo",
+        "explicacao": "A agricultura global é responsável pela emissão de 10,4 Gt CO2 eq, o que corresponde a **18%** das emissões totais de gases de efeito estufa, ficando atrás dos setores de energia e indústria."
+    },
+    {
+        "Questão": 33,
+        "pergunta": "Em termos de GEE (gases de efeito estufa), a agricultura global é responsável pela emissão de 12,4 Gt CO2 eq, o que corresponde a 15% das emissões totais, ficando atrás dos setores de energia e indústria.",
+        "resposta": "Errado",
+        "explicacao": "A agricultura global é responsável pela emissão de 10,4 Gt CO2 eq, o que corresponde a 18% das emissões totais de gases de efeito estufa, ficando atrás dos setores de energia e indústria."
+    },
+    {
+        "Questão": 34,
+        "pergunta": "A fermentação entérica na pecuária é responsável pela maior emissão de gases de efeito estufa na agricultura, com 29% das emissões.",
+        "resposta": "Certo",
+        "explicacao": "A fermentação entérica na pecuária é responsável por 29% das emissões de gases de efeito estufa da agricultura, sendo o segundo maior responsável, ficando atrás apenas do uso da terra, a mudança no uso da terra e a silvicultura (38%)."
+    },
+    {
+        "Questão": 35,
+        "pergunta": "O cultivo de arroz é o segundo maior responsável pela emissão de gases de efeito estufa na agricultura, com 9,6% das emissões.",
+        "resposta": "Errado",
+        "explicacao": "O maior responsável pela emissão de gases de efeito estufa na agricultura é o uso da terra, a mudança no uso da terra e a silvicultura, com 38%, seguido pela fermentação entérica na pecuária (29%) e o cultivo de arroz com 9,6%."
+    },
+    {
+        "Questão": 36,
+        "pergunta": "A falta de acesso à internet e assistência técnica, com apenas 33% de acesso à internet e 18% recebendo assistência técnica, representa um grande desafio para o setor agrícola.",
+        "resposta": "Certo",
+        "explicacao": "A falta de acesso à internet e assistência técnica, com apenas 33% de acesso à internet e 18% recebendo assistência técnica, representa um importante desafio ao setor agrícola."
+    },
+    {
+        "Questão": 37,
+        "pergunta": "No Brasil, 47,4% da energia utilizada é obtida de fontes renováveis, enquanto no restante do mundo esse valor é, em média, de 14%.",
+        "resposta": "Certo",
+        "explicacao": "No Brasil, 47,4% da energia utilizada é obtida de fontes renováveis, enquanto no restante do mundo esse valor é, em média, de 14%, mostrando uma grande diferença."
+    },
+    {
+        "Questão": 38,
+        "pergunta": "A energia gerada a partir da cana-de-açúcar (etanol e eletricidade) representa 10% de toda a energia consumida no Brasil.",
+        "resposta": "Errado",
+        "explicacao": "A energia gerada a partir da cana-de-açúcar (etanol e eletricidade) representa 15,4% de toda a energia consumida no Brasil."
+    },
+    {
+        "Questão": 39,
+        "pergunta": "As hidrelétricas no Brasil contribuem com 15% da energia consumida no país.",
+        "resposta": "Errado",
+        "explicacao": "As hidrelétricas contribuíram com 12,5% da energia consumida no Brasil, segundo o Balanço Energético Nacional de 2022."
+    },
+    {
+        "Questão": 40,
+        "pergunta": "A energia proveniente de lenha e carvão vegetal representa 9% do total de energia consumida no Brasil.",
+        "resposta": "Certo",
+        "explicacao": "A energia proveniente de lenha e carvão vegetal representou 9% do total de energia consumida no Brasil, de acordo com o Balanço Energético Nacional de 2022."
+    },
+    {
+        "Questão": 41,
+        "pergunta": "As fontes renováveis como lixívia, biodiesel e biogás contribuíram com 5% da energia consumida no Brasil.",
+        "resposta": "Errado",
+        "explicacao": "As fontes renováveis como lixívia, biodiesel e biogás contribuíram com 7% da energia consumida no Brasil."
+    },
+    {
+        "Questão": 42,
+        "pergunta": "A energia eólica representou 2,3% da energia consumida no Brasil, enquanto a solar representou 1,2%.",
+        "resposta": "Certo",
+        "explicacao": "A energia eólica representou 2,3% e a energia solar representou 1,2% da energia consumida no Brasil, conforme o Balanço Energético Nacional de 2022."
+    }
+]

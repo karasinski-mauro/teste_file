@@ -1,0 +1,170 @@
+[
+    {   
+        "Questão": 1,
+        "pergunta": "O Código de Conduta, Ética e Integridade da Embrapa se aplica apenas aos empregados efetivos da empresa.",
+        "resposta": "Errado",
+        "explicacao": "O código se aplica a todos os empregados, gestores, estagiários, prestadores de serviço e demais colaboradores a serviço da Embrapa."
+    },
+    {   
+        "Questão": 2,
+        "pergunta": "A Embrapa deve assegurar o sigilo das informações de ordem pessoal de seus empregados.",
+        "resposta": "Certo",
+        "explicacao": "A empresa deve garantir o sigilo dessas informações, conforme estabelecido no código."
+    },
+    {   
+        "Questão": 3,
+        "pergunta": "Os empregados da Embrapa podem aceitar presentes e brindes de qualquer valor, desde que sejam oferecidos por parceiros estratégicos.",
+        "resposta": "Errado",
+        "explicacao": "A aceitação de presentes ou brindes é vedada, salvo se o valor estiver dentro dos limites estabelecidos pela legislação."
+    },
+    {   
+        "Questão": 4,
+        "pergunta": "Os empregados devem comunicar imediatamente qualquer suspeita de violação do Código de Conduta.",
+        "resposta": "Certo",
+        "explicacao": "A comunicação deve ser feita aos superiores, à ouvidoria ou à Comissão de Ética da Embrapa."
+    },
+    {   
+        "Questão": 5,
+        "pergunta": "É permitido o uso de recursos da Embrapa para apoiar campanhas políticas dentro das dependências da empresa.",
+        "resposta": "Errado",
+        "explicacao": "A utilização de recursos institucionais para fins políticos é proibida."
+    },
+    {   
+        "Questão": 6,
+        "pergunta": "A integridade e a transparência são princípios fundamentais do Código de Conduta da Embrapa.",
+        "resposta": "Certo",
+        "explicacao": "Esses princípios estão alinhados com os valores institucionais da empresa."
+    },
+    {   
+        "Questão": 7,
+        "pergunta": "Os gestores não têm a obrigação de tomar providências em caso de quebra de conduta de membros da equipe.",
+        "resposta": "Errado",
+        "explicacao": "Os gestores devem tomar medidas disciplinares imediatas quando houver transgressões ao código}."
+    },
+    {   
+        "Questão": 8,
+        "pergunta": "A Embrapa tem a responsabilidade de promover a melhoria da qualidade de vida dos seus empregados.",
+        "resposta": "Certo",
+        "explicacao": "A empresa deve proporcionar bem-estar, saúde, higiene e segurança no ambiente de trabalho."
+    },
+    {   
+        "Questão": 9,
+        "pergunta": "O assédio moral ou sexual dentro da Embrapa deve ser comunicado diretamente à Comissão Permanente de Prevenção e Combate ao Assédio Moral.",
+        "resposta": "Certo",
+        "explicacao": "Há um canal específico para denúncias desse tipo de conduta."
+    },
+    {   
+        "Questão": 10,
+        "pergunta": "Empregados da Embrapa podem divulgar informações institucionais sigilosas sem autorização formal.",
+        "resposta": "Errado",
+        "explicacao": "A divulgação não autorizada de informações sigilosas é proibida."
+    },
+    {   
+        "Questão": 11,
+        "pergunta": "O código de conduta exige que todos os empregados sejam assíduos ao trabalho.",
+        "resposta": "Certo",
+        "explicacao": "A assiduidade é uma obrigação dos empregados da Embrapa."
+    },
+    {   
+        "Questão": 12,
+        "pergunta": "A prática de jogos de azar dentro das dependências da Embrapa é permitida, desde que não atrapalhe a rotina de trabalho.",
+        "resposta": "Errado",
+        "explicacao": "A prática de jogos de azar dentro da Embrapa é proibida}."
+    },
+    {   
+        "Questão": 13,
+        "pergunta": "A empresa é responsável por proporcionar treinamentos periódicos sobre o Código de Conduta.",
+        "resposta": "Certo",
+        "explicacao": "O treinamento é obrigatório e deve ocorrer pelo menos uma vez ao ano."
+    },
+    {   
+        "Questão": 14,
+        "pergunta": "O uso de internet e redes sociais pelos empregados deve estar em conformidade com as normas institucionais.",
+        "resposta": "Certo",
+        "explicacao": "Os empregados devem seguir diretrizes sobre uso da internet, evitando prejuízos à imagem da empresa."
+    },
+    {   
+        "Questão": 15,
+        "pergunta": "Os empregados podem portar armas dentro das dependências da Embrapa, desde que possuam licença.",
+        "resposta": "Errado",
+        "explicacao": "É proibido portar armas, salvo em funções de segurança."
+    },
+    {   
+        "Questão": 16,
+        "pergunta": "Todos os empregados devem assinar um Termo de Compromisso de adesão ao Código de Conduta no momento da contratação.",
+        "resposta": "Certo",
+        "explicacao": "A assinatura do Termo de Compromisso é obrigatória."
+    },
+    {   
+        "Questão": 17,
+        "pergunta": "O nepotismo é permitido dentro da Embrapa, desde que seja previamente autorizado pela diretoria.",
+        "resposta": "Errado",
+        "explicacao": "A prática de nepotismo é proibida dentro da Embrapa."
+    },
+    {   
+        "Questão": 19,
+        "pergunta": " O Código de Ética e Integridade da Embrapa, se aplica indistintavelmente, mesmo em período de férias ou afastamento.",
+        "resposta": "Certo",
+        "explicacao": "Segundo o campo 2, que trata da aplicação do Código, este Código se aplica indistintamente, inclusive, em período de férias, licença, afastamento ou quando o empregado esteja cedido a outros órgãos.O respeito mútuo é um princípio fundamental do código."
+    },
+    {   
+        "Questão": 20,
+        "pergunta": " O empregado da embrapa não poderá ser cedido à outros órgãos enquanto contratado pela Embrapa.",
+        "resposta": "Certo",
+        "explicacao": "Segundo o campo 2, que trata da aplicação do Código, este Código se aplica indistintamente, inclusive, em período de férias, licença, afastamento ou quando o empregado esteja cedido a outros órgãos.O respeito mútuo é um princípio fundamental do código."
+    },
+    {   
+        "Questão": 21,
+        "pergunta": " O empregado da embrapa não poderá ser cedido à outros órgãos enquanto contratado pela Embrapa.",
+        "resposta": "Certo",
+        "explicacao": "Segundo o campo 2, que trata da aplicação do Código, este Código se aplica indistintamente, inclusive, em período de férias, licença, afastamento ou quando o empregado esteja cedido a outros órgãos.O respeito mútuo é um princípio fundamental do código."
+    },
+    {
+        "Questão": 22,
+        "pergunta": "O princípio da impessoalidade garante que as decisões administrativas devem sempre privilegiar interesses públicos e privados, desde que em conformidade com a lei.",
+        "resposta": "Errado",
+        "explicacao": "O princípio da impessoalidade garante a igualdade e isonomia nas decisões administrativas, considerando a prevalência do *interesse público sobre os interesses particulares**, com **objetividade** e **imparcialidade**."
+    },
+    {
+        "Questão": 23,
+        "pergunta": "O princípio da integridade na administração pública se refere à adesão a valores e normas éticas, com o objetivo de evitar práticas de corrupção, fraudes e desvios éticos.",
+        "resposta": "Certo",
+        "explicacao": "Refere-se ao alinhamento consistente e à adesão a **valores**, **princípios** e **normas éticas** comuns com o objetivo de evitar práticas de **corrupção**, **fraudes**, **irregularidades** e **desvios éticos** e de condutas."
+    },
+    {
+        "Questão": 24,
+        "pergunta": "A legalidade no serviço público garante que as funções sejam executadas de acordo com os valores morais e éticos da administração.",
+        "resposta": "Errado",
+        "explicacao": "Refere-se ao exercício das funções públicas, que devem ser executadas **conforme estabelecido em lei**."
+    },
+    {
+        "Questão": 24,
+        "pergunta": "Liberalidade refere-se a atos em que alguém cede bens, vantagens ou direitos a outra pessoa por motivos diversos, como afeição ou caridade, sem qualquer vínculo legal.",
+        "resposta": "Certo",
+        "explicacao": "Toda disposição a título gratuito, independente de seu modo de realização, pela qual alguém confere bens, vantagens ou direitos a outrem, por motivos diversos tais como: afeição, gratidão, dedicação, caridade, etc."
+    },
+    {
+        "Questão": 25,
+        "pergunta": "O princípio da moralidade no serviço público está relacionado à prática da honestidade e probidade, sem a necessidade de seguir as normas legais.",
+        "resposta": "Errado",
+        "explicacao": "Refere-se ao exercício das funções públicas, pautados na **honestidade**, **probidade**, e, em consonância com o princípio da **legalidade**."
+    },
+    {
+        "Questão": 26,
+        "pergunta": "O nepotismo é permitido quando a nomeação de parentes ocorre dentro de cargos de comissão, desde que não haja vínculo familiar direto com a autoridade nomeante.",
+        "resposta": "Errado",
+        "explicacao": "Nomeação de cônjuge, companheiro ou parente em linha reta, colateral ou por afinidade, até o terceiro grau, inclusive, da autoridade nomeante ou servidor da mesma pessoa jurídica investido em cargo de direção, chefia ou assessoramento, para o exercício de cargo em comissão ou de confiança ou, ainda, de função gratificada na administração pública direta e indireta em qualquer dos poderes da União, dos Estados, do Distrito Federal e dos Municípios, compreendido o ajuste mediante designações recíprocas."
+    },
+    {
+        "Questão": 27,
+        "pergunta": "É permitido que uma autoridade aceite presentes de pessoas ou entidades com interesse nas decisões que ela tome, desde que o presente tenha um valor comercial inferior a R$ 100,00.",
+        "resposta": "Errado",
+        "explicacao": "É **vedado** pleitear, solicitar, provocar, sugerir ou receber, de terceiro, qualquer tipo de ajuda financeira que excedam os valores permitidos por lei, brinde,gratificação, prêmio, comissão, doação ou vantagem de qualquer espécie, para si, familiares ou qualquer pessoa, para o cumprimento de suas funções ou para influenciar outro empregado para o mesmo fim.\nAinda é **vedado** ceitar o patrocínio de quaisquer tipos de despesas para congressos, feiras ou qualquer outro evento, incluindo passagens aéreas e hospedagem, de instituições financeiras, fornecedores e prestadores de serviço, ressalvados aqueles autorizados pela Embrapa."
+    },
+    {
+        "Questão": 27,
+        "pergunta": "É permitido que uma autoridade aceite presentes de pessoas ou entidades com interesse nas decisões que ela tome, desde que o presente tenha um valor comercial inferior a R$ 100,00.",
+        "resposta": "Errado",
+        "explicacao": "É **vedado** pleitear, solicitar, provocar, sugerir ou receber, de terceiro, qualquer tipo de ajuda financeira que excedam os valores permitidos por lei, brinde,gratificação, prêmio, comissão, doação ou vantagem de qualquer espécie, para si, familiares ou qualquer pessoa, para o cumprimento de suas funções ou para influenciar outro empregado para o mesmo fim.\nAinda é **vedado**"
+    }
+]

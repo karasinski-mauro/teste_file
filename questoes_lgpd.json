@@ -1,0 +1,207 @@
+[
+    {   
+        "Questão": 1,
+        "pergunta": "O tratamento de dados pessoais sensíveis relacionados à saúde pode ser realizado sem o consentimento do titular, desde que seja efetuado, exclusivamente, por profissionais de saúde, serviços de saúde ou autoridade sanitária para a tutela da saúde.",
+        "resposta": "Certo",
+        "explicacao": "A LGPD permite o tratamento sem consentimento na área da saúde quando realizado por profissionais, serviços ou autoridades sanitárias para a tutela da saúde."
+    },
+    {   
+        "Questão": 3,
+        "pergunta": "O titular dos dados tem direito de solicitar a revisão de decisões tomadas unicamente com base em tratamento automatizado que afetem seus interesses.",
+        "resposta": "Certo",
+        "explicacao": "A lei garante ao titular o direito de revisão de decisões baseadas exclusivamente em processos automatizados que possam impactar seus interesses."
+    },
+    {   
+        "Questão": 4,
+        "pergunta": "A LGPD permite que a totalidade dos dados pessoais de um banco de dados seja tratada por pessoa jurídica de direito privado, independentemente da composição do referido banco.",
+        "resposta": "Errado",
+        "explicacao": "A lei veda o tratamento integral dos dados pessoais por pessoa privada, salvo exceção para entidades cujo capital seja integralmente constituído pelo poder público."
+    },
+    {   
+        "Questão": 5,
+        "pergunta": "É vedada a comunicação ou o uso compartilhado de dados pessoais sensíveis referentes à saúde com o objetivo de obter vantagem econômica, exceto quando se tratar da prestação de serviços de saúde, assistência farmacêutica ou de assistência à saúde, desde que observadas as condições legais.",
+        "resposta": "Certo",
+        "explicacao": "A LGPD proíbe o compartilhamento de dados de saúde para fins econômicos, exceto para a prestação de serviços ou assistências, quando observadas as condições legais."
+    },
+    {   
+        "Questão": 6,
+        "pergunta": "O controlador é obrigado a informar, de maneira imediata, aos agentes de tratamento que compartilham dados pessoais quaisquer alterações que impliquem a correção, eliminação, anonimização ou bloqueio dos dados.",
+        "resposta": "Certo",
+        "explicacao": "A legislação exige que o controlador comunique imediatamente os agentes de tratamento sobre alterações significativas que afetem os dados pessoais compartilhados."
+    },
+    {   
+        "Questão": 7,
+        "pergunta": "A Autoridade Nacional de Proteção de Dados (ANPD) possui autonomia técnica e decisória, mas não tem competência para editar regulamentos e procedimentos sobre proteção de dados pessoais.",
+        "resposta": "Errado",
+        "explicacao": "A ANPD possui autonomia técnica e decisória e também tem competência para editar normas, orientações e procedimentos complementares para a aplicação da LGPD."
+    },
+    {   
+        "Questão": 8,
+        "pergunta": "As sanções mais gravosas previstas na LGPD, como a suspensão parcial do funcionamento do banco de dados ou a proibição do exercício de atividades de tratamento, podem ser aplicadas sem que tenham sido impostas sanções administrativas menos gravosas previamente.",
+        "resposta": "Errado",
+        "explicacao": "A aplicação das sanções mais severas depende, na maioria dos casos, da imposição prévia de sanções administrativas menos gravosas, conforme determina a LGPD."
+    },
+    {   
+        "Questão": 9,
+        "pergunta": "O encarregado é a pessoa indicada pelo controlador e operador para atuar como canal de comunicação entre estes, os titulares dos dados e a ANPD.",
+        "resposta": "Certo",
+        "explicacao": "A LGPD define o encarregado (DPO) como o elo de comunicação entre o controlador, os titulares e a Autoridade Nacional de Proteção de Dados."
+    },
+    {   
+        "Questão": 10,
+        "pergunta": "As normas gerais da LGPD são de interesse nacional e devem ser observadas exclusivamente pelos órgãos e entidades da administração pública federal.",
+        "resposta": "Errado",
+        "explicacao": "As normas da LGPD são de interesse nacional e devem ser observadas por todos os entes da federação: União, Estados, Distrito Federal e Municípios."
+    },
+    {   
+        "Questão": 11,
+        "pergunta": "A transferência internacional de dados pessoais somente é permitida para países ou organismos internacionais que proporcionem um grau adequado de proteção, conforme regulamentação da ANPD.",
+        "resposta": "Certo",
+        "explicacao": "A transferência internacional de dados é permitida apenas para destinos que garantam um nível adequado de proteção, conforme critérios estabelecidos pela ANPD."
+    },
+    {   
+        "Questão": 12,
+        "pergunta": "A portabilidade dos dados pessoais para outro fornecedor de serviço ou produto pode ser realizada sem que o titular faça requisição expressa.",
+        "resposta": "Errado",
+        "explicacao": "A portabilidade deve ocorrer mediante requisição expressa do titular, conforme as disposições da LGPD."
+    },
+    {   
+        "Questão": 13,
+        "pergunta": "Órgãos de pesquisa, conforme definidos na LGPD, podem ser constituídos tanto por entidades da administração pública quanto por pessoas jurídicas de direito privado sem fins lucrativos, desde que tenham a pesquisa como missão institucional.",
+        "resposta": "Certo",
+        "explicacao": "A definição de órgão de pesquisa na LGPD abrange tanto entidades públicas quanto privadas, desde que tenham como missão a realização de pesquisas de caráter histórico, científico, tecnológico ou estatístico."
+    },
+    {   
+        "Questão": 14,
+        "pergunta": "A aplicação das sanções administrativas pela ANPD não impede a imposição simultânea de sanções civis ou penais previstas em outras legislações, como o Código de Defesa do Consumidor.",
+        "resposta": "Certo",
+        "explicacao": "As sanções aplicadas pela ANPD coexistem com outras penalidades civis, administrativas ou penais previstas em legislação específica."
+    },
+    {   
+        "Questão": 15,
+        "pergunta": "O tratamento posterior dos dados pessoais para novas finalidades é permitido, desde que observados os propósitos legítimos e específicos para o novo tratamento, bem como os direitos do titular.",
+        "resposta": "Certo",
+        "explicacao": "A LGPD admite o tratamento posterior para novas finalidades, desde que sejam legítimas, específicas e não prejudiquem os direitos dos titulares dos dados."
+    },
+    {   
+        "Questão": 16,
+        "pergunta": "A ANPD é o órgão central de interpretação e aplicação da LGPD, possuindo competência exclusiva para impor sanções relacionadas ao descumprimento da lei.",
+        "resposta": "Certo",
+        "explicacao": "A ANPD é o órgão central da LGPD, responsável pela interpretação, normatização e aplicação das sanções decorrentes do descumprimento da legislação."
+    },
+    {   
+        "Questão": 17,
+        "pergunta": "As microempresas e empresas de pequeno porte estão dispensadas do cumprimento integral das normas da LGPD, conforme a política de mínima intervenção prevista na legislação.",
+        "resposta": "Errado",
+        "explicacao": "Embora a LGPD preveja medidas simplificadas para micro e pequenas empresas, estas ainda devem cumprir integralmente os dispositivos da lei."
+    },
+    {   
+        "Questão": 18,
+        "pergunta": "O Conselho Nacional de Proteção de Dados Pessoais e da Privacidade é composto por representantes do Poder Executivo, do Legislativo, do Ministério Público, da sociedade civil e de outras entidades indicadas na lei.",
+        "resposta": "Certo",
+        "explicacao": "A composição do Conselho é ampla, reunindo representantes de diversos setores da sociedade, conforme definido pela LGPD."
+    },
+    {   
+        "Questão": 19,
+        "pergunta": "Os regulamentos e normas editados pela ANPD devem ser publicados sem necessidade de consulta ou audiência pública, pois a lei já estabelece as diretrizes gerais para proteção de dados.",
+        "resposta": "Errado",
+        "explicacao": "A edição de regulamentos pela ANPD deve ser precedida de consultas e audiências públicas, além de análises de impacto regulatório, para assegurar transparência e participação."
+    },
+    {   
+        "Questão": 20,
+        "pergunta": "A LGPD estabelece que o tratamento de dados pessoais de idosos deve ser realizado de forma simples, clara, acessível e adequada ao entendimento dos titulares, considerando as especificidades dessa faixa etária.",
+        "resposta": "Certo",
+        "explicacao": "A lei reforça a necessidade de tratamento adequado e acessível para dados de idosos, em consonância com o Estatuto do Idoso."
+    },
+    {   
+        "Questão": 21,
+        "pergunta": "As medidas de segurança adotadas no tratamento de dados pessoais podem ser flexibilizadas independentemente do risco que os dados apresentem, sem a necessidade de justificativa ou observância dos princípios da proteção de dados.",
+        "resposta": "Errado",
+        "explicacao": "As medidas de segurança devem ser proporcionais aos riscos e justificadas, em conformidade com os princípios e fundamentos estabelecidos pela LGPD."
+    },
+    {
+        "Questão": 22,
+        "pergunta": "Dado pessoal sensível é a informação relacionada a uma pessoa natural identificada ou identificável, como por exemplo, o Cadastro de Pessoa Física.",
+        "resposta": "Errado",
+        "explicacao": "Dado pessoal sensível é dado pessoal sobre origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato ou a organização de caráter religioso, filosófico ou político, dado referente à saúde ou à vida sexual, dado genético ou biométrico, quando vinculado a uma pessoa natural."
+    },
+    {
+        "Questão": 23,
+        "pergunta": "Dado anonimizado é dado relacionado a titular que possa ser identificado apenas por meios técnicos razoáveis.",
+        "resposta": "Errado",
+        "explicacao": "Dado anonimizado é dado relativo a titular que **não** possa ser identificado, considerando a utilização de meios técnicos razoáveis e disponíveis na ocasião de seu tratamento."
+    },
+    {
+        "Questão": 24,
+        "pergunta": "Banco de dados é um conjunto estruturado de dados pessoais que estão em um único local, seja físico ou eletrônico.",
+        "resposta": "Errado",
+        "explicacao": "Banco de dados é um conjunto estruturado de dados pessoais, estabelecido em **um ou em vários locais**, em suporte eletrônico ou físico."
+    },
+    {
+        "Questão": 25,
+        "pergunta": "O titular é a pessoa natural ou jurídica a quem se referem os dados pessoais que são objeto de tratamento.",
+        "resposta": "Errado",
+        "explicacao": "O titular é a **pessoa natural** a quem se referem os dados pessoais que são objeto de tratamento."
+    },
+    {
+        "Questão": 26,
+        "pergunta": "O controlador é a pessoa natural ou jurídica, de direito público ou privado, que realiza o tratamento de dados pessoais em nome de outro.",
+        "resposta": "Errado",
+        "explicacao": "O controlador é a pessoa natural ou jurídica, de direito público ou privado, a quem competem as **decisões** referentes ao tratamento de dados pessoais."
+    },
+    {
+        "Questão": 27,
+        "pergunta": "O operador é a pessoa natural ou jurídica, de direito público ou privado, que decide sobre o tratamento de dados pessoais.",
+        "resposta": "Errado",
+        "explicacao": "O operador é a pessoa natural ou jurídica, de direito público ou privado, que **realiza o tratamento** de dados pessoais em nome do controlador."
+    
+    },
+    {
+        "Questão": 28,
+        "pergunta": "Agentes de tratamento são os dados pessoais que são tratados por um controlador, operador ou encarregado.",
+        "resposta": "Errado",
+        "explicacao": "Agentes de tratamento são o controlador e o operador, que são responsáveis pelo tratamento dos dados pessoais."
+    },
+    {
+        "Questão": 29,
+        "pergunta": "Tratamento de dados pessoais se refere a qualquer operação realizada com dados, como coleta, classificação, acesso, armazenamento e eliminação.",
+        "resposta": "Certo",
+        "explicacao": "Tratamento é toda operação realizada com dados pessoais, como as que se referem a coleta, produção, recepção, classificação, utilização, acesso, reprodução, transmissão, distribuição, processamento, arquivamento, armazenamento, eliminação, avaliação ou controle da informação, modificação, comunicação, transferência, difusão ou extração."
+    },
+    {
+        "Questão": 30,
+        "pergunta": "A anonimização é o processo de garantir que os dados possam ser associados, direta ou indiretamente, a um indivíduo.",
+        "resposta": "Errado",
+        "explicacao": "Anonimização é a utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado **perde a possibilidade de associação**, direta ou indireta, a um indivíduo."
+    },
+    {
+        "Questão": 31,
+        "pergunta": "Consentimento é a manifestação não informada do titular e inequívoca, permitindo o tratamento dos dados pessoais.",
+        "resposta": "Errado",
+        "explicacao": "Consentimento é a manifestação **livre, informada e inequívoca** pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada."
+    },
+    {
+        "Questão": 32,
+        "pergunta": "Bloqueio é a exclusão de dados pessoais de um banco de dados.",
+        "resposta": "Errado",
+        "explicacao": "Bloqueio é a **suspensão temporária** de qualquer operação de tratamento, mediante guarda do dado pessoal ou do banco de dados."
+    },
+    {
+        "Questão": 33,
+        "pergunta": "Eliminação de dados se refere à exclusão de dados armazenados em banco de dados, independentemente do procedimento utilizado.",
+        "resposta": "Certo",
+        "explicacao": "Eliminação é a **exclusão** de dado ou de conjunto de dados armazenados em banco de dados, independentemente do procedimento empregado."
+    },
+    {
+        "Questão": 34,
+        "pergunta": "A transferência internacional de dados ocorre quando os dados pessoais são transferidos para outra cidade outro país sem restrições.",
+        "resposta": "Errado",
+        "explicacao": "A transferência internacional de dados refere-se à transferência de dados pessoais para país estrangeiro ou organismo internacional do qual o país seja membro."
+    },
+    {
+        "Questão": 35,
+        "pergunta": "No contexto da LGPD, órgão de pesquisa é uma pessoa jurídica de direito privado sem ou com fins lucrativos, constituída sob as leis brasileiras, que desenvolve pesquisa científica.",
+        "resposta": "Errado",
+        "explicacao": "Órgão de pesquisa é órgão ou entidade da administração pública direta ou indireta ou pessoa jurídica de direito privado**sem fins lucrativos** legalmente constituída sob as leis brasileiras, com sede e foro no País, que inclua em sua missão institucional ou em seu objetivo social ou estatutário a pesquisa básica ou aplicada de caráter histórico, científico, tecnológico ou estatístico."
+    }
+]

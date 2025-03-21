@@ -1,0 +1,256 @@
+[
+    {   
+        "Questão": 1,
+        "pergunta": "A Embrapa, segundo seu Estatuto, pode ter seu capital social reduzido a critério da Diretoria-Executiva, sem necessidade de aprovação da Assembleia Geral.",
+        "resposta": "Errado",
+        "explicacao": "O capital social da Embrapa só pode ser alterado por deliberação da Assembleia Geral"
+    },
+    {   
+        "Questão": 2,
+        "pergunta": "O Conselho de Administração da Embrapa é composto por oito membros, sendo a maioria indicada pelo Ministério da Agricultura e Pecuária.",
+        "resposta": "Certo",
+        "explicacao": "O Estatuto prevê oito membros no Conselho de Administração da Embrapa.\n\n- 4 são indicados pelo **Ministro de Estado da Agricultura e Pecuária**, sendo que:\n  - **2** desses devem ser conselheiros **independentes** (externos à Embrapa);\n- 1 é indicado pelo **Ministro de Estado da Fazenda**;\n- 1 é indicado pelo **Ministro de Estado da Ciência, Tecnologia e Inovação**;\n- 1 é indicado pelo **Ministro de Estado da Gestão e da Inovação em Serviços Públicos**;\n- 1 membro representa os **empregados da Embrapa**, eleito pelos próprios empregados.\n\nAssim, a maioria dos membros é, de fato, indicada pelo Ministério da Agricultura e Pecuária."
+    },
+    {   
+        "Questão": 3,
+        "pergunta": "O Conselho Fiscal da Embrapa tem apenas caráter consultivo e não pode interferir na aprovação das contas da empresa.",
+        "resposta": "Errado",
+        "explicacao": "O Conselho Fiscal tem papel fiscalizador e deve opinar sobre as contas da Embrapa."
+    },
+    {   
+        "Questão": 4,
+        "pergunta": "O Estatuto da Embrapa proíbe qualquer forma de remuneração adicional aos administradores que não tenha sido aprovada em Assembleia Geral.",
+        "resposta": "Certo",
+        "explicacao": "A remuneração dos administradores segue regras definidas na Assembleia Geral. Fazem parte da adminitração da Embrapa o Conselho de Administração e a Diretoria Executiva."
+    },
+    {   
+        "Questão": 5,
+        "pergunta": "A Embrapa pode celebrar convênios e contratos com entidades públicas e privadas, nacionais e internacionais, conforme previsto em seu Estatuto.",
+        "resposta": "Certo",
+        "explicacao": "O Estatuto permite tais parcerias para a realização de pesquisas e inovação."
+    },
+    {   
+        "Questão": 6,
+        "pergunta": "A Diretoria-Executiva tem mandato unificado de 3 anos, sendo vedada a reeleição.",
+        "resposta": "Errado",
+        "explicacao": "O mandato da Diretoria Executiva é de **dois** anos, com possibilidade de até **três** reconduções."
+    },
+    {   
+        "Questão": 7,
+        "pergunta": "O Conselho de Administração pode autorizar a alienação de bens imóveis da Embrapa sem necessidade de aprovação da Assembleia Geral.",
+        "resposta": "Certo",
+        "explicacao": "O Estatuto permite ao Conselho deliberar sobre a alienação de imóveis."
+    },
+    {   
+        "Questão": 8,
+        "pergunta": "O Estatuto da Embrapa estabelece que sua sede deve permanecer em Brasília, sendo proibida a criação de unidades em outras localidades.",
+        "resposta": "Errado",
+        "explicacao": "A Embrapa pode estabelecer unidades e representações em outros locais, mas sua sede está em Brasília."
+    },
+    {   
+        "Questão": 9,
+        "pergunta": "O capital social da Embrapa é integralmente subscrito pela União e pode ser aumentado por decisão da Assembleia Geral.",
+        "resposta": "Certo",
+        "explicacao": "O Art. 10 do Estatuto informa que o capital social é **totalmente subscrito pela União** e pode ser alterado por decisão da Assembleia Geral, conforme art. 11."
+    },
+    {   
+        "Questão": 10,
+        "pergunta": "O Conselho de Administração da Embrapa é composto por oito membros, sendo um deles representantes do Ministério do Meio Ambiente.",
+        "resposta": "Errado",
+        "explicacao": "O Estatuto prevê oito membros no Conselho de Administração da Embrapa.\n\n- 4 são indicados pelo **Ministro de Estado da Agricultura e Pecuária**, sendo que:\n  - **2** desses devem ser conselheiros **independentes** (externos à Embrapa);\n- 1 é indicado pelo **Ministro de Estado da Fazenda**;\n- 1 é indicado pelo **Ministro de Estado da Ciência, Tecnologia e Inovação**;\n- 1 é indicado pelo **Ministro de Estado da Gestão e da Inovação em Serviços Públicos**;\n- 1 membro representa os **empregados da Embrapa**, eleito pelos próprios empregados."
+    },
+    {   
+        "Questão": 11,
+        "pergunta": "A Embrapa pode participar minoritariamente do capital social de empresas privadas com o objetivo de desenvolver produtos ou processos inovadores.",
+        "resposta": "Certo",
+        "explicacao": "Conforme o Art. 5º, parágrafo único, a Embrapa pode participar **minoritariamente** do capital social de empresas com o propósito de  desenvolver produtos ou processos inovadores, desde que alinhados às **políticas agrícolas e de ciência e tecnologia**."
+    },
+    {   
+        "Questão": 12,
+        "pergunta": "Os membros do Conselho Fiscal da Embrapa são escolhidos diretamente pela Diretoria-Executiva.",
+        "resposta": "Errado",
+        "explicacao": "Os membros do Conselho Fiscal são 3, sendo eles: \n\n **1** deve ser indicado pelo Ministro da Fazenda  \n\n **2** indicados pelo Ministro da Agricultura e Pecuária\n\n  Só então são eleitos por **Assembléia Geral** como previsto no Art. 37, § 1º."
+    },
+    {   
+        "Questão": 13,
+        "pergunta": "A função de conselheiro de administração é pessoal, sem possibilidade de substituição temporária ou suplência.",
+        "resposta": "Certo",
+        "explicacao": "Segundo o Art. 28, § 11, a função de conselheiro de administração é pessoal, não admitindo substituto temporário ou suplente, inclusive para o representante dos empregados."
+    },
+    {   
+        "Questão": 14,
+        "pergunta": "O prazo de gestão dos membros da Diretoria-Executiva se prorrogará até a efetiva investidura dos novos membros.",
+        "resposta": "Certo",
+        "explicacao": "Conforme o Art. 31, § 8º, O prazo de gestão dos membros da Diretoria-Executiva se prorrogará até a efetiva investidura dos novos membros."
+    },
+    {   
+        "Questão": 15,
+        "pergunta": "O prazo de gestão do Conselho Fiscal é de dois anos, com permissão para até 3 (três) reconduções consecutivas.",
+        "resposta": "Errado",
+        "explicacao": "De acordo com o Art. 37, § 2º, o prazo de gestão do Conselho Fiscal é de **dois anos**, com permissão para no máximo **duas reconduções** consecutivas."
+    },
+    {   
+        "Questão": 16,
+        "pergunta": "A Diretoria-Executiva da Embrapa deve realizar reuniões presenciais semanalmente, sem possibilidade de reuniões virtuais.",
+        "resposta": "Errado",
+        "explicacao": "Conforme o Art. 31, § 11 - A Diretoria-Executiva se reunirá de forma presencial ou virtual, **ordinariamente uma vez por semana**, e extraordinariamente sempre que necessário.\n\n e § 15 As reuniões da Diretoria-Executiva devem, em regra, ser presenciais, admitindo-se, **excepcionalmente**, a reunião virtual ou a participação de membro por tele ou videoconferência, mediante justificativa aprovada pelo colegiado."
+    },
+    {   
+        "Questão": 17,
+        "pergunta": "O Comitê de Auditoria deve realizar pelo menos 2 (duas) reuniões presenciais semanais, admintindo a participação de membros por teleconferência, em casos justificado.",
+        "resposta": "Errado",
+        "explicacao": "Segundo o Art. 46, o Comitê de Auditoria deverá realizar 2 (reuniões) **mensais**, cujas atas deverão ser encaminhadas aos conselhos de Administração e Fiscal."
+    },
+    {   
+        "Questão": 18,
+        "pergunta": "A Embrapa pode celebrar contratos de prestação de serviços que incluam assistência técnica aos produtores rurais",
+        "resposta": "Errado",
+        "explicacao": "Segundo o Art. 4º, § 2º, as atividades da Embrapa **não** incluem **assistência técnica** e **extensão rural**, mesmo que relacionadas à transferência de conhecimentos. Além disso, também **não** incluem atividades de ensino."
+    },
+    {   
+        "Questão": 19,
+        "pergunta": "O Comitê de Auditoria da Embrapa deve realizar no mínimo duas reuniões por mês.",
+        "resposta": "Certo",
+        "explicacao": "De acordo com o Art. 46, o Comitê de Auditoria deve realizar, no mínimo, duas reuniões mensais, cujas atas devem ser encaminhadas aos Conselhos de Administração e Fiscal."
+    },
+    {   
+        "Questão": 20,
+        "pergunta": "Os administradores da Embrapa devem participar de treinamentos anuais sobre legislação societária e governança corporativa.",
+        "resposta": "Certo",
+        "explicacao": "De acordo com o Art. 21, incisos I a VI, os administradores da Embrapa (**Conselho de Administração** e **Diretoria Executiva**) e **Conselheiros Fiscais**, devem participar de treinamentos anuais sobre temas como:\n\n I - legislação societária e de mercados de capitais,\n\n II - divulgçãoo de informações;\n\n III - controle interno;\n\n IV - codigo de conduta;\n\n V - Lei n. 12846 de 1 de agosto de 2013; e, VI - demais temas relacionados às atividades da empresa."
+    },
+    {   
+        "Questão": 21,
+        "pergunta": "O Conselho de Administração da Embrapa pode aprovar a prática de atos que importem em renúncia ou transação de obrigações legais.",
+        "resposta": "Certo",
+        "explicacao": "Conforme o Art. 29, inciso XXIX, o Conselho de Administração tem competência para aprovar atos que importem em renúncia, transação ou compromisso arbitral, respeitando a política de alçada da empresa."
+    },
+    {   
+        "Questão": 22,
+        "pergunta": "É competencia da Diretoria Executiva, solicitar auditoria interna periódica sobre as atividades da CERES -  Fundação de Seguridade Social, entidade fechada de previdência complementar que administra plano de benefício da empresa.",
+        "resposta": "Errado",
+        "explicacao": "Segundo o Art. 29, inciso XXII, é competência do **Conselho de Administração (CA)** solicitar auditoria interna periódica sobre as atividades da CERES -  Fundação de Seguridade Social, entidade fechada de previdência complementar que administra plano de benefício da empresa.\n\n  Além disso, segundo o inciso XXXIX – compete ao CA manifestar-se sobre o relatório apresentado pela **Diretoria Executiva** resultante da auditoria interna sobre as atividades da CERES."
+    },
+    {   
+        "Questão": 23,
+        "pergunta": "Por ser uma empresa de Pública, que adota o regime celetista, ou seja, a Consolidação das Leis do Trabalho (CLT), seus empregados possuem benefício previdenciário vinculado ao INSS (Instituto Nacional do Seguro Social) ",
+        "resposta": "Errado",
+        "explicacao": "A a previdência complementar da Embrapa é administrada pela CERES Previdência, uma entidade fechada de previdência complementar (EFPC) sem fins lucrativos.\n\n CERES -  Fundação de Seguridade Social, entidade fechada de previdência complementar que administra plano de benefício da empresa."
+    },
+    {   
+        "Questão": 25,
+        "pergunta": "O representante dos empregados no Conselho de Administração pode participar de discussões sobre benefícios e remunerações dos funcionários.",
+        "resposta": "Errado",
+        "explicacao": "Segundo o Art. 28, § 4º, o representante dos empregados não pode participar de reuniões ou deliberações que tratem de benefícios, remunerações relações sindicais ou previdência complementar, para evitar conflitos de interesse."
+    },
+    {   
+        "Questão": 26,
+        "pergunta": "É vetado à Embrapa utilizar receitas provenientes de royalties e direitos autorais para compor seus recursos financeiros.",
+        "resposta": "Errado",
+        "explicacao": "De acordo com o Art. 9º, inciso VIII, as receitas provenientes de royalties e direitos autorais estão entre as modalidades de recursos financeiros que a Embrapa pode utilizar."
+    },
+    {   
+        "Questão": 26,
+        "pergunta": "O mandato dos membros do Comitê de Auditoria da Embrapa é de três anos, com possibilidade de 2 reconduções.",
+        "resposta": "Errado",
+        "explicacao": "Conforme o Art. 45, § 2º, o mandato dos membros do Comitê de Auditoria é de três anos, mas é permitida apenas **uma única reeleição**. Ou seja, uma recondução."
+    },
+    {   
+        "Questão": 27,
+        "pergunta": "Os membros do Comitê de Auditoria da Embrapa podem exercer o cargo no máximo de 6 anos consecutivos.",
+        "resposta": "Certo",
+        "explicacao": "Conforme o Art. 45, § 2º, o mandato dos membros do Comitê de Auditoria é de três anos, mas é permitida apenas uma única reeleição."
+    },
+    {   
+        "Questão": 28,
+        "pergunta": "As reuniões do Conselho de Administração da Embrapa devem ser presenciais, sem exceções para reuniões virtuais.",
+        "resposta": "Errado",
+        "explicacao": "Segundo o Art. 28, § 15, as reuniões do Conselho de Administração devem ser presenciais como regra, mas é permitido realizá-las virtualmente ou permitir a participação de membros por videoconferência, em casos justificados."
+    },
+    {   
+        "Questão": 29,
+        "pergunta": "Os membros do Conselho Fiscal da Embrapa devem apresentar anualmente uma Declaração de Ajuste Anual do Imposto de Renda Pessoa Física.",
+        "resposta": "Certo",
+        "explicacao": "De acordo com o Art. 17, § 4º, os membros estatutários, incluindo os do Conselho Fiscal, devem apresentar uma Declaração de Ajuste Anual do Imposto de Renda à Embrapa ao assumir e ao deixar seus cargos."
+    },
+    {   
+        "Questão": 30,
+        "pergunta": "A Embrapa pode celebrar convênios com agências de fomento ou fundações de apoio, públicas ou privadas para apoiar suas atividades de pesquisa e inovação.",
+        "resposta": "Certo",
+        "explicacao": "Conforme o Art. 5º, inciso VIII, a Embrapa pode articular-se com agências de fomento, públicas ou privadas, para apoiar suas atividades de pesquisa, desenvolvimento e inovação."
+    },
+    {   
+        "Questão": 31,
+        "pergunta": "A Embrapa pode celebrar convênios com agências de fomento ou fundações de apoio, públicas ou privadas para apoiar suas atividades de pesquisa e inovação.",
+        "resposta": "Certo",
+        "explicacao": "Conforme o Art. 5º, inciso VIII, a Embrapa pode articular-se com agências de fomento, públicas ou privadas, para apoiar suas atividades de pesquisa, desenvolvimento e inovação."
+    },
+    {   
+        "Questão": 32,
+        "pergunta": "O Presidente da Embrapa pode designar os substitutos dos membros da Diretoria-Executiva em caso de ausência ou vacância.",
+        "resposta": "Certo",
+        "explicacao": "Segundo o Art. 31, § 9º, em caso de vacância ou ausência de qualquer membro da Diretoria Executiva, o **Presidente da Embrapa** pode designar um substituto dentre os outros diretores."
+    },
+    {   
+        "Questão": 33,
+        "pergunta": "A Diretoria-Executiva da Embrapa pode aprovar alienações de bens imóveis diretamente vinculados à prestação de serviços.",
+        "resposta": "Errado",
+        "explicacao": "De acordo com o Art. 32, inciso VIII, a alienação de bens imóveis diretamente vinculados à prestação de serviços deve ser previamente autorizada pelo **Conselho de Administração**, e não pela Diretoria Executiva."
+    },
+    {   
+        "Questão": 34,
+        "pergunta": "Os administradores da Embrapa devem ser submetidos a avaliações de desempenho, conduzidas pelo Conselho de Administração.",
+        "resposta": "Certo",
+        "explicacao": "Conforme o Art. 29, inciso XXXII, o Conselho de Administração deve avaliar o desempenho dos membros da Diretoria-Executiva e dos comitês estatutários da empresa"
+    },
+    {   
+        "Questão": 35,
+        "pergunta": "A Embrapa é obrigada a publicar as atas das reuniões do Comitê de Auditoria na íntegra, sem restrições.",
+        "resposta": "Errado",
+        "explicacao": "Segundo o Art. 46, § 3º, se o Conselho de Administração considerar que a publicação da ata completa pode pôr em **risco** interesses legítimos da empresa, apenas o extrato da ata será divulgado."
+    },
+    {   
+        "Questão": 36,
+        "pergunta": "A Remuneração do Conselho de Administração e Fiscal não deve ultrapassar 10 % da média do salário dos Diretores Executivos.",
+        "resposta": "Certo",
+        "explicacao": "Segundo Art. 20, § 2º , a remuneração mensal devida aos membros dos **Conselhos de Administração e Fiscal** da EMBRAPA não excederá a **10 (dez) por cento** da remuneração mensal média dos diretores executivos, excluídos os valores relativos, eventuais adicionais e benefícios, sendo vedado o pagamento de participação, de qualquer espécie, nos lucros da empresa. "
+    },
+    {   
+        "Questão": 37,
+        "pergunta": "A remunerção do Comitê de Auditoria, pode ser fixado em valores superiores a  10% da média dos Diretores Executivos, desde que fixada pela Assembleia Geral",
+        "resposta": "Certo",
+        "explicacao": " Segunoo Art. 20, § 3º, a remuneração dos membros do Comitê de Auditoria será fixada pela **Assembleia Geral** em montante **não inferior** à remuneração dos **Conselheiros Fiscais**. e, \n\n Segundo Art. 20, § 2º , a remuneração mensal devida aos membros dos **Conselhos de Administração e Fiscal** da Embrapa não excederá a **10 (dez) por cento** da remuneração mensal média dos diretores executivos, excluídos os valores relativos, eventuais adicionais e benefícios, sendo vedado o pagamento de participação, de qualquer espécie, nos lucros da empresa."
+        
+    },
+    {   
+        "Questão": 38,
+        "pergunta": "Os órgãos estatutários reunir-se-ão com a presença da maioria dos seus membros e as deliberações serão tomadas pelo voto da maioria dos membros presentes e serão registradas no livro de atas, não podendo ser lavradas na forma de sumário dos fatos ocorridos.",
+        "resposta": "Errado",
+        "explicacao": "Conforme o Art. 18º, § 1º ,  as deliberações serão tomadas pelo voto da maioria dos membros presentes e serão registradas no livro de atas, **podendo** ser lavradas na forma de sumário dos fatos ocorridos."
+    },
+    {   
+        "Questão": 39,
+        "pergunta": "Os membros do Conselho Fiscal serão investidos em seus cargos independentemente da assinatura de termo de posse, desde a data da respectiva eleição.",
+        "resposta": "Certo",
+        "explicacao": "Conforme o Art. 17º, § 2º ,   Os membros do Conselho Fiscal serão investidos em seus cargos **independentemente** da assinatura de termo de posse, desde a data da respectiva eleição."
+    },
+    {   
+        "Questão": 40,
+        "pergunta": "Os membros do Comitê de Auditoria serão investidos em seus cargos na data da eleição, independentemente da assinatura de termo de posse.",
+        "resposta": "Errado",
+        "explicacao": "Conforme o Art. 17º, § 3º ,   Os membros do Comitê de Auditoria serão investidos em seus cargos na data da eleição, **mediante** assinatura do termo de posse."
+    },
+    {   
+        "Questão": 41,
+        "pergunta": "A Conselho de Fiscal tem mandato de 3 anos, não coincidentes, sendo permitida apenas uma única a reeleição.",
+        "resposta": "Errado",
+        "explicacao": "O mandato da **Conselho Fiscal**  é de **dois** anos, permitidas no máximo, **2 (duas) reconduções** consecutivas. Enquanto o Comitê de Auditoria, possui mandato de 3 (três) anos, **não coincidentes**, permitida uma reeleição"
+    },
+    {   
+        "Questão": 42,
+        "pergunta": "Os membros da Diretoria Executiva devem apresentar a declaração anual de bens e rendas à Comissão de Ética Pública da Presidencia da República - CEP/PR.",
+        "resposta": "Certo",
+        "explicacao": "Antes de entrar no exercício da função e ao deixar o cargo, cada membro estatutário deverá apresentar à Embrapa, que zelará pelo sigilo legal, Declaração de Ajuste Anual do Imposto de Renda Pessoa Física e das respectivas retificações apresentadas à Receita Federal do Brasil - RFB ou autorização de acesso às informações nela contidas.\n\n Além disso, No caso dos membros da **Diretoria-Executiva**, a declaração anual de bens e rendas também deve ser apresentada à Comissão de Ética Pública da Presidência da República - CEP/PR." 
+    }
+
+]
