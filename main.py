@@ -27,7 +27,6 @@ if "tentativa" not in st.session_state:
     st.session_state.tentativa = 1
 
 # Função para carregar questões
-#@st.cache_data
 def load_questions(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
@@ -53,13 +52,9 @@ if aba_selecionada == "📝 Simulado":
     
     categoria_anterior = st.session_state.get("categoria_atual", None)
 
-    # Verificar se o simulado foi finalizado para a categoria
-    if categoria_anterior and st.session_state.simulado_finalizado:
-        bloqueado = False  # Desbloqueia a seleção de categoria quando o simulado estiver finalizado
-    else:
-        bloqueado = st.session_state.respondeu_alguma and not st.session_state.simulado_finalizado
-
     # Permitir a seleção de categoria após finalização
+    bloqueado = st.session_state.respondeu_alguma and not st.session_state.simulado_finalizado
+
     if bloqueado:
         st.sidebar.selectbox("Simulado em andamento (bloqueado):", [st.session_state.categoria_atual], disabled=True)
         escolha_simulado = st.session_state.categoria_atual
@@ -76,6 +71,7 @@ if aba_selecionada == "📝 Simulado":
             st.session_state.categoria_atual = escolha_simulado
             st.experimental_rerun()
 
+    # Inicializando variáveis de estado se necessário
     if "questoes" not in st.session_state:
         st.session_state.questoes = []
         st.session_state.indice = 0
@@ -107,20 +103,17 @@ if aba_selecionada == "📝 Simulado":
 
     st.title("📚 Simulado Concurso Embrapa")
     total_categoria = len(simulados[categoria]) if categoria != "Aleatório" else sum(len(v) for v in simulados.values())
-    inicio_bloco = (st.session_state.indice % 6) + 1
-    #st.markdown(f"<h3 style='font-size: 18px;'>▶️ Bloco de Questões: {categoria}</h3>", unsafe_allow_html=True)
     total_respondidas = len(st.session_state.respondidas_ids)
     st.markdown(f"**📌 Progresso geral: {total_respondidas}/{total_categoria} questões respondidas.**")
     
-
     questoes = st.session_state.questoes
     indice = st.session_state.indice
 
     # 🔒 Impede avanço se não há mais questões
     if total_respondidas >= total_categoria:
         st.success(f"🎉 Você respondeu todas as {total_categoria} questões da categoria **{categoria}**.")
-        # Botão para iniciar um novo simulado
         if st.button("🔁 Iniciar novo simulado"):
+            # Reinicia variáveis sem fazer rerun
             st.session_state.finalizou_anterior = False
             st.session_state.simulado_finalizado = False
             st.session_state.resposta_confirmada = False
@@ -131,9 +124,8 @@ if aba_selecionada == "📝 Simulado":
             st.session_state.finalizou_anterior = True
             st.session_state.indice = 0
             st.session_state.tentativa += 1
-            # Atualiza o estado para reiniciar a categoria e as questões
             st.session_state.categoria_atual = escolha_simulado
-            st.experimental_rerun()  # Redefine a página após reiniciar
+            st.experimental_rerun()  # Só aqui faz sentido usar
 
         st.stop()
 
