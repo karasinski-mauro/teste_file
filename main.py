@@ -69,7 +69,6 @@ if aba_selecionada == "📝 Simulado":
                 if k in st.session_state:
                     del st.session_state[k]
             st.session_state.categoria_atual = escolha_simulado
-            # Evite usar o st.experimental_rerun() aqui, pois pode causar loops inesperados
 
     # Inicializando variáveis de estado se necessário
     if "questoes" not in st.session_state:
@@ -126,7 +125,7 @@ if aba_selecionada == "📝 Simulado":
             st.session_state.tentativa += 1
             st.session_state.categoria_atual = escolha_simulado
             # Não usamos o rerun aqui; evitamos ciclos infinitos
-            st.rerun()
+            #st.rerun()
 
         st.stop()
 
@@ -179,7 +178,7 @@ if aba_selecionada == "📝 Simulado":
                     q["categoria"] = categoria if categoria != "Aleatório" else next(k for k, v in simulados.items() if q in v)
                     st.session_state.questoes.append(q)
                     st.session_state.bloco_questoes.append(q)
-                st.rerun()
+                #st.rerun()
             else:
                 st.success(f"🎉 Todas as questões da categoria **{categoria}** foram respondidas!")
 
@@ -214,7 +213,7 @@ if aba_selecionada == "📝 Simulado":
                     "Total_Respondidas": indice + 1,
                     "Erros": (indice + 1) - st.session_state.acertos
                 })
-                st.rerun()
+                #st.rerun()
         else:
             resposta_correta = questao_atual["resposta"]
             resposta_usuario = st.session_state.resposta_usuario
