@@ -134,8 +134,8 @@
     {   
         "Questão": 23,
         "pergunta": "Por ser uma empresa de Pública, que adota o regime celetista, ou seja, a Consolidação das Leis do Trabalho (CLT), seus empregados possuem benefício previdenciário vinculado ao INSS (Instituto Nacional do Seguro Social) ",
-        "resposta": "Errado",
-        "explicacao": "A a previdência complementar da Embrapa é administrada pela CERES Previdência, uma entidade fechada de previdência complementar (EFPC) sem fins lucrativos.\n\n CERES -  Fundação de Seguridade Social, entidade fechada de previdência complementar que administra plano de benefício da empresa."
+        "resposta": "certo",
+        "explicacao": "A Embrapa, coomo empresa pública, regime geral da previdencia social e, além da aposentadoria do INSS, Embrapa oferece um plano de previdência complementar que é administrada pela CERES Previdência, uma entidade fechada de previdência complementar (EFPC) sem fins lucrativos.\n\n CERES -  Fundação de Seguridade Social, entidade fechada de previdência complementar que administra plano de benefício da empresa."
     },
     {   
         "Questão": 25,
