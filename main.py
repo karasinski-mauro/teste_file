@@ -69,7 +69,7 @@ if aba_selecionada == "📝 Simulado":
                 if k in st.session_state:
                     del st.session_state[k]
             st.session_state.categoria_atual = escolha_simulado
-            st.experimental_rerun()
+            # Evite usar o st.experimental_rerun() aqui, pois pode causar loops inesperados
 
     # Inicializando variáveis de estado se necessário
     if "questoes" not in st.session_state:
@@ -125,7 +125,8 @@ if aba_selecionada == "📝 Simulado":
             st.session_state.indice = 0
             st.session_state.tentativa += 1
             st.session_state.categoria_atual = escolha_simulado
-            st.experimental_rerun()  # Só aqui faz sentido usar
+            # Não usamos o rerun aqui; evitamos ciclos infinitos
+            st.experimental_rerun()
 
         st.stop()
 
