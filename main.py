@@ -106,7 +106,6 @@ if aba_selecionada == "📝 Simulado":
 
     st.title("📚 Simulado Concurso Embrapa")
     total_categoria = len(simulados[categoria]) if categoria != "Aleatório" else sum(len(v) for v in simulados.values())
-    inicio_bloco = (st.session_state.indice % 6) + 1
     total_respondidas = len(st.session_state.respondidas_ids)
     st.markdown(f"**📌 Progresso geral: {total_respondidas}/{total_categoria} questões respondidas.**")
     
@@ -130,6 +129,8 @@ if aba_selecionada == "📝 Simulado":
             st.session_state.tentativa += 1
             # Atualiza o estado para reiniciar a categoria e as questões
             st.session_state.categoria_atual = escolha_simulado
+            # Resetar a lista de respondidas e selecionar uma nova questão aleatória
+            st.session_state.respondidas_ids = []
             st.rerun()  # Redefine a página após reiniciar
 
         st.stop()
