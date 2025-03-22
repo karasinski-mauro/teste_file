@@ -104,7 +104,7 @@ if aba_selecionada == "📝 Simulado":
                         "Erros": total_respondidas - st.session_state.acertos
                     })
 
-                    st.experimental_rerun()
+                    st.rerun()
 
         else:
             resposta_correta = questoes[indice]["resposta"]
@@ -132,7 +132,7 @@ if aba_selecionada == "📝 Simulado":
             if st.button("➡ Próxima Questão"):
                 st.session_state.indice += 1
                 st.session_state.resposta_confirmada = False
-                st.experimental_rerun()
+                st.rerun()
 
 # --- 📊 Dashboard de Desempenho ---
 elif aba_selecionada == "📊 Dashboard de Desempenho":
