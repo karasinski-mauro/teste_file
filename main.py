@@ -4,39 +4,18 @@ import json
 import pandas as pd
 import altair as alt
 
-# Inicializar controle de estados (verifique todas as variáveis antes de usá-las)
-if "finalizou_anterior" not in st.session_state:
-    st.session_state.finalizou_anterior = False
-if "respondidas_ids" not in st.session_state:
-    st.session_state.respondidas_ids = []
-if "questoes_erradas" not in st.session_state:
-    st.session_state.questoes_erradas = []
-if "simulado_finalizado" not in st.session_state:
-    st.session_state.simulado_finalizado = False  # Inicialize como False
-if "respondeu_alguma" not in st.session_state:
-    st.session_state.respondeu_alguma = False
-if "bloco_questoes" not in st.session_state:
-    st.session_state.bloco_questoes = []
-if "indice" not in st.session_state:
-    st.session_state.indice = 0
-if "acertos" not in st.session_state:
-    st.session_state.acertos = 0
-if "total_questoes" not in st.session_state:
-    st.session_state.total_questoes = 0
-if "tentativa" not in st.session_state:
-    st.session_state.tentativa = 1
-
-# Função para carregar questões
+# --- Função para carregar as questões de um arquivo JSON ---
 def load_questions(file_path):
     with open(file_path, "r", encoding="utf-8") as f:
         return json.load(f)
 
-# Carregar questões
+# --- Carregar as questões a partir dos arquivos JSON ---
 questoes_codigo_conduta = load_questions("questoes_codigo_conduta.json")
-questoes_plano_diretor = load_questions("questoes_plano_diretor.json")
-questoes_estatuto = load_questions("questoes_estatuto.json")
-questoes_lgpd = load_questions("questoes_lgpd.json")
+questoes_plano_diretor   = load_questions("questoes_plano_diretor.json")
+questoes_estatuto        = load_questions("questoes_estatuto.json")
+questoes_lgpd            = load_questions("questoes_lgpd.json")
 
+# --- Mapeamento dos simulados ---
 simulados = {
     "Código de Conduta": questoes_codigo_conduta,
     "Plano Diretor da Embrapa": questoes_plano_diretor,
@@ -44,184 +23,91 @@ simulados = {
     "Lei Geral de Proteção de Dados": questoes_lgpd
 }
 
+# --- Criando um MENU LATERAL ---
 st.sidebar.title("🔍 Menu Principal")
+
+
+# Opções de abas
 aba_selecionada = st.sidebar.radio("Escolha uma opção:", ["📝 Simulado", "📊 Dashboard de Desempenho"])
 
 if aba_selecionada == "📝 Simulado":
     opcoes_simulado = ["Aleatório"] + list(simulados.keys())
-    
-    categoria_anterior = st.session_state.get("categoria_atual", None)
+    escolha_simulado = st.sidebar.selectbox("Selecione o Simulado:", opcoes_simulado)
 
-    # Verificar se o simulado foi finalizado para a categoria
-    if categoria_anterior and st.session_state.simulado_finalizado:
-        bloqueado = False  # Desbloqueia a seleção de categoria quando o simulado estiver finalizado
-    else:
-        bloqueado = st.session_state.respondeu_alguma and not st.session_state.simulado_finalizado
-
-    # Permitir a seleção de categoria após finalização
-    if bloqueado:
-        st.sidebar.selectbox("Simulado em andamento (bloqueado):", [st.session_state.categoria_atual], disabled=True)
-        escolha_simulado = st.session_state.categoria_atual
-    else:
-        escolha_simulado = st.sidebar.selectbox(
-            "Selecione o Simulado:",
-            opcoes_simulado,
-            index=opcoes_simulado.index(categoria_anterior) if categoria_anterior in opcoes_simulado else 0
-        )
-        if categoria_anterior and escolha_simulado != categoria_anterior:
-            for k in ["questoes", "indice", "acertos", "resposta_confirmada", "simulado_finalizado", "finalizou_anterior", "respondeu_alguma", "bloco_questoes"]:
-                if k in st.session_state:
-                    del st.session_state[k]
-            st.session_state.categoria_atual = escolha_simulado
-            st.rerun()
-
-    if "questoes" not in st.session_state:
-        st.session_state.questoes = []
+    # --- Se o usuário mudar a categoria, reinicia o simulado ---
+    if "categoria_atual" not in st.session_state or st.session_state.categoria_atual != escolha_simulado:
         st.session_state.indice = 0
         st.session_state.acertos = 0
         st.session_state.resposta_confirmada = False
-        st.session_state.questoes_erradas = []
-        st.session_state.respondeu_alguma = False
-        st.session_state.total_questoes = 0
-        st.session_state.tentativa = 1
         st.session_state.categoria_atual = escolha_simulado
+        st.session_state.tentativa = st.session_state.tentativa + 1 if "tentativa" in st.session_state else 1
 
-    categoria = st.session_state.categoria_atual
-    lista_questoes = simulados[categoria] if categoria != "Aleatório" else [q for sub in simulados.values() for q in sub]
-    respondidas = st.session_state.respondidas_ids
-    restantes = [q for q in lista_questoes if q["Questão"] not in respondidas]
-
-    # Verifica se há questões restantes para novo bloco
-    if not st.session_state.simulado_finalizado and not st.session_state.bloco_questoes:
-        if len(restantes) == 0:
-            st.session_state.simulado_finalizado = True
-            st.warning(f"✅ Todas as questões da categoria **{categoria}** foram respondidas! Você completou esta categoria.")
+        # Configura as questões baseadas na escolha
+        if escolha_simulado == "Aleatório":
+            questoes = []
+            for categoria, lista_questoes in simulados.items():
+                for q in lista_questoes:
+                    nova_questao = q.copy()
+                    nova_questao["categoria"] = categoria
+                    questoes.append(nova_questao)
         else:
-            novas = random.sample(restantes, min(6, len(restantes)))
-            for q in novas:
-                q = q.copy()
-                q["categoria"] = categoria if categoria != "Aleatório" else next(k for k, v in simulados.items() if q in v)
-                st.session_state.questoes.append(q)
-                st.session_state.bloco_questoes.append(q)
+            questoes = simulados[escolha_simulado]
+            for q in questoes:
+                q["categoria"] = escolha_simulado  
 
+        # Embaralha as questões e armazena na sessão
+        st.session_state.questoes = random.sample(questoes, len(questoes))
+        st.session_state.total_questoes = len(st.session_state.questoes)
+
+    # --- Exibição do Simulado ---
     st.title("📚 Simulado Concurso Embrapa")
-    total_categoria = len(simulados[categoria]) if categoria != "Aleatório" else sum(len(v) for v in simulados.values())
-    total_respondidas = len(st.session_state.respondidas_ids)
-    st.markdown(f"**📌 Progresso geral: {total_respondidas}/{total_categoria} questões respondidas.**")
-    
-    questoes = st.session_state.questoes
+    st.write("Organizado por Mauro Alessandro Karasinski")
+
     indice = st.session_state.indice
+    total_questoes = st.session_state.total_questoes
+    questoes = st.session_state.questoes
+    resposta_confirmada = st.session_state.resposta_confirmada
 
-    # 🔒 Impede avanço se não há mais questões
-    if total_respondidas >= total_categoria:
-        st.success(f"🎉 Você respondeu todas as {total_categoria} questões da categoria **{categoria}**.")
-        # Botão para iniciar um novo simulado
-        if st.button("🔁 Iniciar novo simulado"):
-            st.session_state.finalizou_anterior = False
-            st.session_state.simulado_finalizado = False
-            st.session_state.resposta_confirmada = False
-            st.session_state.acertos = 0
-            st.session_state.questoes_erradas = []
-            st.session_state.bloco_questoes = []
-            st.session_state.respondeu_alguma = False
-            st.session_state.finalizou_anterior = True
-            st.session_state.indice = 0
-            st.session_state.tentativa += 1
-            # Atualiza o estado para reiniciar a categoria e as questões
-            st.session_state.categoria_atual = escolha_simulado
-            # Resetar a lista de respondidas e selecionar uma nova questão aleatória
-            st.session_state.respondidas_ids = []
-            st.rerun()  # Redefine a página após reiniciar
+    if indice < total_questoes:
+        categoria = questoes[indice]["categoria"]
+        st.write(f"**📝 Categoria da Questão: {categoria}**")
 
-        st.stop()
+        st.subheader(f"Questão {indice + 1} de {total_questoes}")
 
-    fim_do_bloco = (indice % 6 == 0 and indice != 0) or (indice == len(st.session_state.questoes))
-    if fim_do_bloco and not st.session_state.simulado_finalizado:
-        st.session_state.simulado_finalizado = True
-        st.session_state.finalizou_anterior = True
-        st.session_state.resposta_confirmada = False
-        st.session_state.respondeu_alguma = False
+        # Exibir a questão com fonte maior
+        st.markdown(f"<p style='font-size:18px;'>{questoes[indice]['pergunta']}</p>", unsafe_allow_html=True)
 
-    if st.session_state.simulado_finalizado:
-        st.header("📊 Resultado do Bloco")
-        bloco_inicio = max(0, st.session_state.indice - (st.session_state.indice % 6 or 6))
-        bloco_final = st.session_state.questoes[bloco_inicio:st.session_state.indice]
-        bloco_erradas = [q for q in bloco_final if q in st.session_state.questoes_erradas]
-        bloco_acertos = len(bloco_final) - len(bloco_erradas)
-
-        st.success(f"Você acertou {bloco_acertos} de {len(bloco_final)} questões neste bloco.")
-
-        if bloco_acertos == len(bloco_final) and len(bloco_final) > 0:
-            st.success("🎉 Parabéns! Você acertou todas as questões!")
-            st.balloons()
-        elif bloco_erradas:
-            st.subheader("❌ Questões que você errou:")
-            for i, questao in enumerate(bloco_erradas, 1):
-                st.markdown(f"**{i}. {questao['pergunta']}**")
-                st.write(f"Resposta correta: **{questao['resposta']}**")
-                st.info(questao['explicacao'])
-
-        if st.button("🔁 Iniciar novo simulado", key="btn_unico_novo_simulado"):
-            st.session_state.finalizou_anterior = False
-            st.session_state.simulado_finalizado = False
-            st.session_state.resposta_confirmada = False
-            st.session_state.acertos = 0
-            st.session_state.questoes_erradas = []
-            st.session_state.bloco_questoes = []
-            st.session_state.respondeu_alguma = False
-            st.session_state.finalizou_anterior = True
-            st.session_state.indice = 0
-            st.session_state.tentativa += 1
-
-            respondidas = st.session_state.respondidas_ids
-            lista_questoes = simulados[categoria] if categoria != "Aleatório" else [q for sub in simulados.values() for q in sub]
-            restantes = [q for q in lista_questoes if q["Questão"] not in respondidas]
-
-            if restantes:
-                novas = random.sample(restantes, min(6, len(restantes)))
-                for q in novas:
-                    q = q.copy()
-                    q["categoria"] = categoria if categoria != "Aleatório" else next(k for k, v in simulados.items() if q in v)
-                    st.session_state.questoes.append(q)
-                    st.session_state.bloco_questoes.append(q)
-                st.rerun()
-            else:
-                st.success(f"🎉 Todas as questões da categoria **{categoria}** foram respondidas!")
-
-    elif indice < len(questoes):
-        questao_atual = questoes[indice]
-        categoria = questao_atual["categoria"]
-        st.markdown(f"<h2 style='font-size: 24px; font-weight: bold;'>📝 Categoria da Questão: {categoria}</h2>", unsafe_allow_html=True)
-        st.subheader(f"Questão {(indice % 6) + 1} de 6")
-        st.markdown(f"<p style='font-size:18px;'>{questao_atual['pergunta']}</p>", unsafe_allow_html=True)
-
-        if not st.session_state.resposta_confirmada:
+        if not resposta_confirmada:
             resposta_usuario = st.radio("Escolha sua resposta:", ["Certo", "Errado"], key=f"resp_{indice}")
+
             if st.button("Confirmar Resposta"):
-                st.session_state.resposta_confirmada = True
-                st.session_state.resposta_usuario = resposta_usuario
-                st.session_state.respondeu_alguma = True
-                st.session_state.respondidas_ids.append(questao_atual["Questão"])
+                if resposta_usuario:
+                    st.session_state.resposta_confirmada = True
+                    st.session_state.resposta_usuario = resposta_usuario
 
-                if resposta_usuario == questao_atual["resposta"]:
-                    st.session_state.acertos += 1
-                else:
-                    st.session_state.questoes_erradas.append(questao_atual)
+                    if resposta_usuario == questoes[indice]["resposta"]:
+                        st.session_state.acertos += 1
 
-                if "historico" not in st.session_state:
-                    st.session_state.historico = []
+                    # 🔄 Atualizar desempenho automaticamente
+                    if "historico" not in st.session_state:
+                        st.session_state.historico = []
 
-                st.session_state.historico.append({
-                    "Simulado": st.session_state.categoria_atual,
-                    "Categoria": str(categoria),
-                    "Tentativa": st.session_state.tentativa,
-                    "Acertos": st.session_state.acertos,
-                    "Total_Respondidas": indice + 1,
-                    "Erros": (indice + 1) - st.session_state.acertos
-                })
-                st.rerun()
+                    # Garantir que a contagem de questões respondidas seja feita corretamente
+                    total_respondidas = indice + 1  
+
+                    st.session_state.historico.append({
+                        "Simulado": st.session_state.categoria_atual,
+                        "Categoria": str(categoria),
+                        "Tentativa": st.session_state.tentativa,
+                        "Acertos": st.session_state.acertos,
+                        "Total_Respondidas": total_respondidas,
+                        "Erros": total_respondidas - st.session_state.acertos
+                    })
+
+                    st.experimental_rerun()
+
         else:
-            resposta_correta = questao_atual["resposta"]
+            resposta_correta = questoes[indice]["resposta"]
             resposta_usuario = st.session_state.resposta_usuario
 
             st.radio("Sua resposta:", ["Certo", "Errado"], index=["Certo", "Errado"].index(resposta_usuario), disabled=True)
@@ -230,34 +116,53 @@ if aba_selecionada == "📝 Simulado":
                 st.success("✔ Resposta correta!")
             else:
                 st.error(f"❌ Resposta errada! A resposta correta é: **{resposta_correta}**")
-            st.info(questao_atual["explicacao"])
+
+            st.info(questoes[indice]["explicacao"])
+            # Exibir imagem se existir
+            if "imagem" in questoes[indice] and questoes[indice]["imagem"]:
+                caminho_imagem = questoes[indice]["imagem"]
+                
+                # Tenta exibir a imagem do diretório local
+                try:
+                    st.image(caminho_imagem, caption="Imagem ilustrativa", use_column_width=True)
+                except Exception as e:
+                    st.write(f"Erro ao carregar a imagem: {e}")
+
 
             if st.button("➡ Próxima Questão"):
                 st.session_state.indice += 1
                 st.session_state.resposta_confirmada = False
-                st.rerun()
+                st.experimental_rerun()
 
+# --- 📊 Dashboard de Desempenho ---
 elif aba_selecionada == "📊 Dashboard de Desempenho":
     st.title("📊 Dashboard de Desempenho")
 
     if "historico" in st.session_state and st.session_state.historico:
-        df = pd.DataFrame(st.session_state.historico)
-        df["Taxa_Erros"] = (df["Erros"] / df["Total_Respondidas"]) * 100
-        taxa_total = df["Erros"].sum() / df["Total_Respondidas"].sum() * 100
+        df_desempenho = pd.DataFrame(st.session_state.historico)
 
-        if taxa_total > 50:
-            st.error(f"🚨 Sua taxa de erro é de **{taxa_total:.1f}%**. Reforce os estudos!")
-        elif taxa_total > 30:
-            st.warning(f"⚠ Sua taxa de erro está em **{taxa_total:.1f}%**. Atenção aos pontos fracos.")
+        # 🔹 Cálculo da taxa de erros (%)
+        df_desempenho["Taxa_Erros"] = (df_desempenho["Erros"] / df_desempenho["Total_Respondidas"]) * 100
+
+        # 🔥 Termômetro de desempenho
+        taxa_erro_total = df_desempenho["Erros"].sum() / df_desempenho["Total_Respondidas"].sum() * 100
+
+        if taxa_erro_total > 50:
+            st.error(f"🚨 Atenção! Sua taxa de erro é de **{taxa_erro_total:.1f}%**. Você precisa revisar os conteúdos!")
+        elif taxa_erro_total > 30:
+            st.warning(f"⚠ Você está errando bastante ({taxa_erro_total:.1f}%). Vale a pena revisar alguns tópicos.")
         else:
-            st.success(f"🎯 Excelente! Taxa de erro de apenas **{taxa_total:.1f}%**.")
+            st.success(f"🎉 Excelente! Sua taxa de erro é de apenas **{taxa_erro_total:.1f}%**. Continue assim!")
 
-        chart = alt.Chart(df).mark_arc().encode(
+        # 🥧 Gráfico de Pizza - Distribuição de Erros por Categoria
+        chart_pizza_erros = alt.Chart(df_desempenho).mark_arc().encode(
             theta="Taxa_Erros:Q",
             color="Categoria:N",
             tooltip=["Categoria", "Taxa_Erros"]
         ).properties(title="Distribuição de Erros por Categoria")
 
-        st.altair_chart(chart, use_container_width=True)
+        st.altair_chart(chart_pizza_erros, use_container_width=True)
+
     else:
-        st.write("Nenhum resultado salvo ainda. Faça um simulado para ver seu desempenho.")
+        st.write("Nenhum resultado salvo ainda. Complete um simulado para visualizar seu desempenho.")
+
